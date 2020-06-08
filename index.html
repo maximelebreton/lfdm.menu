@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Menu | Les Filles du Micocoulier</title>
+      <meta charset="UTF-8" />
+      <meta name="theme-color" content="#C6E4E1" />
+
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Noto+Serif+JP:wght@400;500;600&family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
+      <link rel='manifest' href='/manifest.json'>
+      <link rel="icon" type="image/png" href="src/icons/icon-96x96.png" />
+
+
+      <style>
+         [x-cloak] { display: none; }
+      </style>
+   </head>
+   <body id="FR_LFDM_MENU_280x280_0320" lang="fr-FR">
+      <div class="app" x-cloak x-init="() => {init(); }" x-data="data()">
+
+         
+
+      <!-- START-->
+      <div class="tabs-container">
+         <div class="tabs">
+            
+               <template x-for="(tab, index) in menu.common.tabs" :key="index">
+                  
+                     <button :id="['tab' + index]" class="tab" :class="{ 'active': selectedTab === index }" x-on:click="selectTab(index);" >
+
+                        <span x-text="t(menu.common.tabs[index].title)"></span>
+                        <template x-if="index === 0">
+                              <svg class="icon icon--home"  viewBox="0 0 460.298 460.297">
+                                 <use xlink:href="#home"></use>
+                              </svg>
+                        </template>
+
+                     </button>
+                  
+               </template>
+            <!-- <button id="tab0" class="tab" :class="{ 'active': selectedTab === 0 }" x-on:click="selectTab(0);">Apéro / Brasserie</button>
+            <button id="tab1" class="tab" :class="{ 'active': selectedTab === 1 }" x-on:click="selectTab(1);">Galettes</button>
+            <button id="tab2" class="tab" :class="{ 'active': selectedTab === 2 }" x-on:click="selectTab(2);">Crêpes</button>
+            <button id="tab3" class="tab" :class="{ 'active': selectedTab === 3 }" x-on:click="selectTab(3);">Boissons</button>
+            <button id="tab4" class="tab" :class="{ 'active': selectedTab === 4 }" x-on:click="selectTab(4);">Desserts</button> -->
+         </div>
+      </div>
+      <div class="carousel">
+      <div class="carousel-cell carousel-cell--center">
+         <div class="home">
+         <img src="src/logo.svg" width="128" height="128" class="logo" />
+
+         <button @click="selectTab(1)" class="home-title">
+<span x-text="t(menu.common.home.title)" ></span> <div class="anim">→</div>
+         </button>
+
+         <div class="langs">
+            <button class="lang" :class="{ 'active': lang === 'fr' }" x-on:click="selectLang('fr')">
+               <img src="src/france.svg" width="24" height="24" />
+            </button>
+            <button class="lang" :class="{ 'active': lang === 'en' }" x-on:click="selectLang('en')">
+               <img src="src/united-kingdom.svg" width="24" height="24" />
+            </button>
+            <!-- <button class="lang" :class="{ 'active': lang === 'it' }" x-on:click="selectLang('it')">it</button> -->
+            </div>
+            <!-- <img class="icon" height="24" width="24" src="src/facebook.svg" /> -->
+            
+
+         </div>
+      </div>
+      <div class="carousel-cell">
+         <div class="row">
+         <div class="category-title" x-text="t(menu.apero.title)"></div>
+         <div class="category-description" x-text="t(menu.apero.description)"></div>
+         <table class="table">
+            <template x-for="(product, index) in menu.apero.products" :key="index">
+               <tr>
+                  <td><span class="product-title product-title--small" x-text="t(product.title)"></span></td>
+                  <td><span class="product-price" x-text="money(product.price)"></span></td>
+               </tr>
+            </template>
+         </table>
+         <div class="category-title" x-text="t(menu.brasserie.title)"></div>
+         <div class="category-description" x-text="t(menu.brasserie.description)"></div>
+         <table class="table">
+            <template x-for="(product, index) in menu.brasserie.products" :key="index">
+               <tr>
+                  <td><span class="product-title product-title--small" x-text="t(product.title)"></span></td>
+                  <td><span class="product-price" x-text="money(product.price)"></span></td>
+               </tr>
+            </template>
+         </table>
+         </div>
+      </div>
+      <div class="carousel-cell">
+         <div class="row">
+         <div class="category-title" x-text="t(menu.galettes.title)"></div>
+         <div class="category-description" x-text="t(menu.galettes.description)"></div>
+         <table class="table">
+            <template x-for="(product, index) in menu.galettes.products" :key="index">
+               <tr>
+                  <td><span class="product-title" x-text="t(product.title)"></span> <span x-text="[t(product.description) ? '| ' : '']"></span><span class="product-description" x-text="t(product.description)"></span></td>
+                  <td><span class="product-price" x-text="money(product.price)"></span></td>
+               </tr>
+            </template>
+         </table>
+         </div>
+      </div>
+      <div class="carousel-cell">
+         <div class="row">
+         <div class="category-title" x-text="t(menu.crepes.title)"></div>
+         <div class="category-description" x-text="t(menu.crepes.description)"></div>
+         <table class="table">
+            <template x-for="(product, index) in menu.crepes.products" :key="index">
+               <tr>
+                  <td>
+                     <div class="product-title product-title--small" x-text="t(product.title)"></div>
+                  </td>
+                  <td>
+                     <div class="product-price" x-text="money(product.price)"></div>
+                  </td>
+               </tr>
+            </template>
+         </table>
+         </div>
+      </div>
+      <div class="carousel-cell">
+         <div class="row">
+      <template x-for="(boisson, index) in menu.boissons.categories" :key="index">
+         <div class="d-flex">
+            <div x-text="t(boisson.title)" class="category-title"></div>
+            <div class="table-container">
+               <table class="table">
+                  <thead>
+                     <tr>
+                        <th></th>
+                        <template x-for="(type, index) in boisson.types" :key="index">
+                           <th><span class="type-title" x-text="t(menu.boissons.types[type].title)"></span></th>
+                        </template>
+                        <template x-if="!boisson.types.length">
+                           <th></th>
+                        </template>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <template x-for="(product, index) in boisson.products" :key="index">
+                        <tr>
+                           <td><span x-text="t(product.title)" class="product-title"></span> <span x-text="[t(product.description) ? '| ' : '']"></span><span class="product-description" x-text="t(product.description)"></span></td>
+                           <template x-for="(type, index) in boisson.types" :key="index">
+                              <td><span class="product-price" x-text="money(product.prices[type])"></span></td>
+                           </template>
+                           <template x-if="!boisson.types.length">
+                              <td><span class="product-price" x-text="money(product.price)"></span></td>
+                           </template>
+                        </tr>
+                     </template>
+                  </tbody>
+               </table>
+            </div>
+         </div>
+      </template>
+      <template x-for="(category, categoryIndex) in menu.boissons2.categories" :key="categoryIndex">
+         <div>
+            <div class="category-title" x-text="t(category.title)"></div>
+            <table class="table">
+               <template x-for="(product, index) in category.products" :key="index">
+                  <tr>
+                     <td>
+                        <div class="product-title product-title--small" x-text="t(product.title)"></div>
+                     </td>
+                     <td>
+                        <div class="product-price" x-text="money(product.price)"></div>
+                     </td>
+                  </tr>
+               </template>
+            </table>
+            <div>
+      </template>
+      </div>
+      </div>
+      <div class="carousel-cell">
+         <div class="row">
+      <div class="category-title" x-text="t(menu.desserts.title)"></div>
+      <table class="table">
+      <template x-for="(product, index) in menu.desserts.products" :key="index">
+      <tr>
+      <td><span class="product-title product-title--small" x-text="t(product.title)"></span></td>
+      <td><span class="product-price" x-text="money(product.price)"></span></td>
+      </tr>
+      </template>
+      </table>
+      
+      <div class="category-description" x-text="t(menu.desserts.description)"></div>
+      <br>
+      <div class="product-description" x-html="t(menu.desserts.extra)"></div>
+      </div>
+      </div>
+
+      <!-- <div class="carousel-cell">
+            <div id="google-reviews"></div>
+
+      </div> -->
+      
+      </div>
+
+
+
+      
+      <footer >
+         <template x-if="selectedTab !== 0">
+         <div x-html="t(menu.common.footer.title)"></div>
+         </template>
+
+
+         <div class="social">
+               <a  href="https://www.facebook.com/lesfillesdumicocoulier/"><img class="icon" height="24" width="24" src="src/facebook.svg" /></a> | <a target="_blank" href="https://www.google.com/search?output=search&q=Les+Filles+du+Micocoulier&ludocid=6835805515096355120&lsig=AB86z5VsvPkJot75enOMtr4ZsCwe&kgs=467d3ac931b1e52f&shndl=-1&source=sh/x/kp/local&entrypoint=sh/x/kp/local"><img class="icon" height="24" width="24" src="src/google.svg" /></a>
+            </div>
+
+         <div><br>
+            <small>© Les Filles du Micocoulier — <a href="https://maximelebreton.com" target="_blank"><img title="Réalisé par Maxime Le Breton" src="src/logo-mlb.svg" style="vertical-align: baseline;" height="16" /></a></small>
+         </div>
+
+      </footer>
+   
+      </div><!-- END -->
+
+      <svg style="display: none;">
+<defs>
+      <g  id="home">
+            <g>
+               <path style="fill: currentColor;" d="M230.149,120.939L65.986,256.274c0,0.191-0.048,0.472-0.144,0.855c-0.094,0.38-0.144,0.656-0.144,0.852v137.041
+                  c0,4.948,1.809,9.236,5.426,12.847c3.616,3.613,7.898,5.431,12.847,5.431h109.63V303.664h73.097v109.64h109.629
+                  c4.948,0,9.236-1.814,12.847-5.435c3.617-3.607,5.432-7.898,5.432-12.847V257.981c0-0.76-0.104-1.334-0.288-1.707L230.149,120.939
+                  z" />
+               <path style="fill: currentColor;"  d="M457.122,225.438L394.6,173.476V56.989c0-2.663-0.856-4.853-2.574-6.567c-1.704-1.712-3.894-2.568-6.563-2.568h-54.816
+                  c-2.666,0-4.855,0.856-6.57,2.568c-1.711,1.714-2.566,3.905-2.566,6.567v55.673l-69.662-58.245
+                  c-6.084-4.949-13.318-7.423-21.694-7.423c-8.375,0-15.608,2.474-21.698,7.423L3.172,225.438c-1.903,1.52-2.946,3.566-3.14,6.136
+                  c-0.193,2.568,0.472,4.811,1.997,6.713l17.701,21.128c1.525,1.712,3.521,2.759,5.996,3.142c2.285,0.192,4.57-0.476,6.855-1.998
+                  L230.149,95.817l197.57,164.741c1.526,1.328,3.521,1.991,5.996,1.991h0.858c2.471-0.376,4.463-1.43,5.996-3.138l17.703-21.125
+                  c1.522-1.906,2.189-4.145,1.991-6.716C460.068,229.007,459.021,226.961,457.122,225.438z"/>
+            </g>
+         </g>
+</defs>
+      </svg>
+
+      <!-- <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&key=AIzaSyD61h_yosVh-mxJJzCQgmPxT3SGmNDaEig"></script> -->
+
+      <script src="src/index.js"></script>
+   </body>
+</html>

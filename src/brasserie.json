@@ -1,0 +1,118 @@
+{
+  "title": {
+    "fr": "Côté Brasserie",
+    "en": "Côté Brasserie",
+    "it": ""
+  },
+  "description": {
+    "fr": "",
+    "en": "",
+    "it": ""
+  },
+  "products": [
+    {
+      "title": {
+        "fr": "Salade de chèvre pané, miel à la truffe, tomate, croûtons, vinaigrette balsamique",
+        "en": "Breadcrumbed goat cheese, truffled honey, croutons, tomato, salad",
+        "it": ""
+      },
+      "description": {
+        "fr": "",
+        "en": "",
+        "it": ""
+      },
+      "price": 16
+    },
+    {
+      "title": {
+        "fr": "Salade de poulet croustillant, tomate, copeaux de parmesan, sauce Caesar",
+        "en": "Crisp chicken breast pan seared, tomato, parmesan, salad, Caesar Sauce",
+        "it": ""
+      },
+      "description": {
+        "fr": "",
+        "en": "",
+        "it": ""
+      },
+      "price": 16
+    },
+    {
+      "title": {
+        "fr": "Salade de tomate, mozzarella di bufala, jambon fumé, pesto maison",
+        "en": "Tomato, mozzarella di bufala, country ham, pesto",
+        "it": ""
+      },
+      "description": {
+        "fr": "",
+        "en": "",
+        "it": ""
+      },
+      "price": 16
+    },
+    {
+      "title": {
+        "fr": "Salade de saumon fumé, tomate, vinaigrette, crème ciboulette citronnée",
+        "en": "Smoked salmon, tomato, fresh cream, salad, buckwheat blinis",
+        "it": ""
+      },
+      "description": {
+        "fr": "",
+        "en": "",
+        "it": ""
+      },
+      "price": 16.5
+    },
+    {
+      "title": {
+        "fr": "Burger maison, pommes de terre sautées maison et salade",
+        "en": "Hamburger Homemade with homemade fried potatoes and salad",
+        "it": ""
+      },
+      "description": {
+        "fr": "",
+        "en": "",
+        "it": ""
+      },
+      "price": 18
+    },
+    {
+      "title": {
+        "fr": "Tartare de bœuf, pommes de terre sautées maison et salade",
+        "en": "Steak tartare with homemade fried potatoes and salad",
+        "it": ""
+      },
+      "description": {
+        "fr": "",
+        "en": "",
+        "it": ""
+      },
+      "price": 18
+    },
+    {
+      "title": {
+        "fr": "Omelette nature, salade, 3 oeufs bio",
+        "en": "Plain omelette, salad, 3 organic eggs",
+        "it": ""
+      },
+      "description": {
+        "fr": "",
+        "en": "",
+        "it": ""
+      },
+      "price": 10
+    },
+    {
+      "title": {
+        "fr": "Omelette jambon fromage, salade, 3 oeufs bio",
+        "en": "Ham and cheese omelette, salad, 3 organic eggs",
+        "it": ""
+      },
+      "description": {
+        "fr": "",
+        "en": "",
+        "it": ""
+      },
+      "price": 12
+    }
+  ]
+}

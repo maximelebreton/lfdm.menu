@@ -1,0 +1,415 @@
+{
+  "types": {
+    "12cl": {
+      "id": "12cl",
+      "title": {
+        "fr": "Verre 12cl",
+        "en": "Glass 12cl",
+        "it": ""
+      }
+    },
+    "18cl": {
+      "id": "18cl",
+      "title": {
+        "fr": "Bolée 18cl",
+        "en": "Bowl 18cl",
+        "it": ""
+      }
+    },
+    "50cl": {
+      "id": "50cl",
+      "title": {
+        "fr": "Carafe 50cl",
+        "en": "Pitcher 50cl",
+        "it": ""
+      }
+    },
+    "75cl": {
+      "id": "75cl",
+      "title": {
+        "fr": "Bout. 75cl",
+        "en": "Bottle 75cl",
+        "it": ""
+      }
+    }
+  },
+  "categories": [
+    {
+      "id": "cidres",
+      "title": {
+        "fr": "Cidres",
+        "en": "Cider",
+        "it": ""
+      },
+      "types": ["18cl", "50cl", "75cl"],
+      "products": [
+        {
+          "title": {
+            "fr": "Brut",
+            "en": "Dry",
+            "it": ""
+          },
+          "description": {
+            "fr": "Cru Breton Val de Rance",
+            "en": "Brittany vintage val de Rance",
+            "it": ""
+          },
+          "prices": {
+            "18cl": 3.6,
+            "50cl": 7.9,
+            "75cl": 10.9
+          }
+        },
+        {
+          "title": {
+            "fr": "Doux",
+            "en": "Sweet",
+            "it": ""
+          },
+          "description": {
+            "fr": "Artisanal Maison Sorre",
+            "en": "",
+            "it": ""
+          },
+          "en": {},
+          "it": {},
+          "prices": {
+            "18cl": 3.6,
+            "50cl": 7.9,
+            "75cl": 10.9
+          }
+        },
+        {
+          "title": {
+            "fr": "Fermier",
+            "en": "Farm produced",
+            "it": ""
+          },
+          "description": {
+            "fr": "Château de Lézergué",
+            "en": "",
+            "it": ""
+          },
+          "prices": {
+            "18cl": 3.9,
+            "50cl": 8.9,
+            "75cl": 12.9
+          }
+        }
+      ]
+    },
+
+    {
+      "id": "vinRose",
+      "title": {
+        "fr": "Vin Rosé de Provence",
+        "en": "Rosé Wine Côtes de Provence",
+        "it": ""
+      },
+      "types": ["12cl", "50cl", "75cl"],
+      "products": [
+        {
+          "title": {
+            "fr": "Côtes de Provence",
+            "en": "",
+            "it": ""
+          },
+          "description": {
+            "fr": "AOP",
+            "en": "",
+            "it": ""
+          },
+
+          "prices": {
+            "12cl": 4.9,
+            "50cl": 16
+          }
+        },
+        {
+          "title": {
+            "fr": "Les Trois Frères du Domaine des Aspras",
+            "en": "",
+            "it": ""
+          },
+          "description": {
+            "fr": "BIO - AOP",
+            "en": "",
+            "it": ""
+          },
+          "en": {},
+          "it": {},
+          "prices": {
+            "12cl": 6,
+            "75cl": 29.5
+          }
+        },
+        {
+          "title": {
+            "fr": "La Cuvée Irrésistible du Domaine de la Croix",
+            "en": "",
+            "it": ""
+          },
+          "description": {
+            "fr": "Cru Classé - AOP",
+            "en": "",
+            "it": ""
+          },
+
+          "prices": {
+            "12cl": 7.5,
+            "75cl": 34.5
+          }
+        }
+      ]
+    },
+
+    {
+      "id": "vinBlanc",
+      "title": {
+        "fr": "Vin Blanc",
+        "en": "White Wine",
+        "it": ""
+      },
+      "types": ["12cl", "50cl", "75cl"],
+      "products": [
+        {
+          "title": {
+            "fr": "Côtes de Provence",
+            "en": "",
+            "it": ""
+          },
+          "description": {
+            "fr": "AOP - Cuvée Mademoiselle",
+            "en": "",
+            "it": ""
+          },
+          "en": {},
+          "it": {},
+          "prices": {
+            "12cl": 5,
+            "50cl": 16,
+            "75cl": 22.5
+          }
+        },
+        {
+          "title": {
+            "fr": "Chardonnay BIO",
+            "en": "",
+            "it": ""
+          },
+          "description": {
+            "fr": "IGP Pays d’Oc - Secret de Lunes",
+            "en": "",
+            "it": ""
+          },
+          "en": {},
+          "it": {},
+          "prices": {
+            "12cl": 5.5,
+            "75cl": 23.5
+          }
+        },
+        {
+          "title": {
+            "fr": "Sauvignon",
+            "en": "",
+            "it": ""
+          },
+          "description": {
+            "fr": "IGP - Côte de Gascogne",
+            "en": "",
+            "it": ""
+          },
+          "en": {},
+          "it": {},
+          "prices": {
+            "12cl": 5.5,
+            "75cl": 23.5
+          }
+        }
+      ]
+    },
+
+    {
+      "id": "vinRouge",
+      "title": {
+        "fr": "Vin Rouge",
+        "en": "Red Wine",
+        "it": ""
+      },
+      "types": ["12cl", "50cl", "75cl"],
+      "products": [
+        {
+          "title": {
+            "fr": "Côtes du Rhône",
+            "en": "",
+            "it": ""
+          },
+          "description": {
+            "fr": "AOP - Les Collines",
+            "en": "",
+            "it": ""
+          },
+          "en": {},
+          "it": {},
+          "prices": {
+            "12cl": 5,
+            "50cl": 16,
+            "75cl": 22.5
+          }
+        },
+        {
+          "title": {
+            "fr": "Côtes de Provence St Victoire",
+            "en": "",
+            "it": ""
+          },
+          "description": {
+            "fr": "AOP - Terre de mistral - Cuvée Zaello",
+            "en": "",
+            "it": ""
+          },
+          "en": {},
+          "it": {},
+          "prices": {
+            "12cl": 6,
+            "75cl": 26.5
+          }
+        },
+        {
+          "title": {
+            "fr": "Bordeaux",
+            "en": "",
+            "it": ""
+          },
+          "description": {
+            "fr": "AOP - Château titleappe Peyrot - Elevé en fût de chêne",
+            "en": "",
+            "it": ""
+          },
+          "en": {},
+          "it": {},
+          "prices": {
+            "12cl": 6,
+            "75cl": 26.5
+          }
+        }
+      ]
+    },
+
+    {
+      "id": "sansAlcool",
+      "title": {
+        "fr": "Boissons sans alcool",
+        "en": "Soft Drink and Water",
+        "it": ""
+      },
+      "types": [],
+
+      "products": [
+        {
+          "title": {
+            "fr": "Jus de fruit (25cl)",
+            "en": "Fruit juice (25cl)",
+            "it": ""
+          },
+          "description": {
+            "fr": "Orange, Pomme, Ananas, Tomate, Abricot, A.C.E",
+            "en": "Orange, Apple, Pineapple, Tomato, Apricot, A.C.E vitamin",
+            "it": ""
+          },
+          "price": 3.8
+        },
+        {
+          "title": {
+            "fr": "Fruits pressés maison",
+            "en": "Freshly squeezed fruit",
+            "it": ""
+          },
+          "description": {
+            "fr": "Orange, Citron, Pamplemousse",
+            "en": "Orange, Lemon, Grapefruit",
+            "it": ""
+          },
+          "price": 5
+        },
+        {
+          "title": {
+            "fr": "Fruits pressés maison",
+            "en": "",
+            "it": ""
+          },
+          "description": {
+            "fr": "Tutti frutti",
+            "en": "",
+            "it": ""
+          },
+          "price": 6
+        },
+        {
+          "title": {
+            "fr": "Smoothie Milkshake",
+            "en": "Smoothie or Milshake",
+            "it": ""
+          },
+          "description": {
+            "fr": "fruit de la passion, mangue, fraise, mûre, fibre saine",
+            "en": "passion fruit, mango, strawberry, blackberry, healthy fiber",
+            "it": ""
+          },
+          "price": 7.5
+        },
+        {
+          "title": {
+            "fr": "Café frappé maison",
+            "en": "Iced coffee-shaken and almond syrup",
+            "it": ""
+          },
+          "description": {},
+          "price": 4.5,
+          "en": "",
+          "it": ""
+        },
+        {
+          "title": {
+            "fr": "Sodas",
+            "en": "Soft drink",
+            "it": ""
+          },
+          "description": {
+            "fr": "Coca-cola 33cl, Coca-cola zéro 33cl, Orangina 25cl, Limonade 25cl, Schweppes Tonic 25cl, Ice-Tea pêche 25cl, Diabolo 25cl, Perrier 33cl",
+            "en": "Coca-cola 33cl, Coca-cola zéro 33cl, Orangina 25cl, Sprite 25cl, Schweppes Tonic 25cl, Peach Ice-Tea 25cl, Diabolo 25cl, Perrier 33cl",
+            "it": ""
+          },
+          "price": 3.9
+        },
+        {
+          "title": {
+            "fr": "Eaux minérales (50cl)",
+            "en": "Water (50cl)",
+            "it": ""
+          },
+          "description": {
+            "fr": "San Pellegrino, Vittel ",
+            "en": "",
+            "it": ""
+          },
+          "price": 4.5
+        },
+        {
+          "title": {
+            "fr": "Thé glacé maison",
+            "en": "Home-made fruit iced tea",
+            "it": ""
+          },
+          "description": {
+            "fr": "menthe, citron, fruits exotiques, fraise-rhubarbe",
+            "en": "(Mint, Lemon, Exotic fruits, Strawberry-Rhubarb)",
+            "it": ""
+          },
+          "price": 4.5
+        }
+      ]
+    }
+  ]
+}

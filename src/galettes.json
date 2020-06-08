@@ -1,0 +1,170 @@
+{
+  "title": {
+    "fr": "Galettes gourmandes",
+    "en": "Savoury Crepes",
+    "it": ""
+  },
+  "description": {
+    "fr": "Farine de Sarrasin sans gluten Bio - IGP de Bretagne - Oeuf bio",
+    "en": "Organic buckwheat flour - Gluten free - Organic egg",
+    "it": ""
+  },
+  "products": [
+    {
+      "title": {
+        "fr": "Monet",
+        "en": "",
+        "it": ""
+      },
+      "description": {
+        "fr": "Œuf au plat, poêlée d’épinards",
+        "en": "Pan-fried egg, spinach",
+        "it": ""
+      },
+      "price": 10.5
+    },
+    {
+      "title": {
+        "fr": "Cézanne",
+        "en": "",
+        "it": ""
+      },
+      "description": {
+        "fr": "Jambon, œuf, emmental",
+        "en": "Ham, egg, emmental cheese",
+        "it": ""
+      },
+      "price": 12
+    },
+    {
+      "title": {
+        "fr": "Renoir",
+        "en": "",
+        "it": ""
+      },
+      "description": {
+        "fr": "4 fromages (emmental, chèvre, mozzarella di bufala, Bleu d’Auvergne)",
+        "en": "4 cheese (emmental, goat cheese, mozzarella di bufala, Auvergne Blue cheese)",
+        "it": ""
+      },
+      "price": 12.5
+    },
+    {
+      "title": {
+        "fr": "Cocteau",
+        "en": "",
+        "it": ""
+      },
+      "description": {
+        "fr": "Poitrine de porc, emmental, œuf, pommes de terre sautées",
+        "en": "Bacon, emmental chesse, egg, potatoes",
+        "it": ""
+      },
+      "price": 12.5
+    },
+    {
+      "title": {
+        "fr": "Gavin",
+        "en": "",
+        "it": ""
+      },
+      "description": {
+        "fr": "Chorizo, œuf, emmental, piment doux du pays basque",
+        "en": "Chorizo, egg, emmental chesse, green sweet pepper",
+        "it": ""
+      },
+      "price": 12.5
+    },
+    {
+      "title": {
+        "fr": "Kandinsky",
+        "en": "",
+        "it": ""
+      },
+      "description": {
+        "fr": "Poulet à la crème fraîche, champignons, emmental",
+        "en": "Chicken, mushrooms, emmental cheese, fresh cream",
+        "it": ""
+      },
+      "price": 13
+    },
+    {
+      "title": {
+        "fr": "Chagall",
+        "en": "",
+        "it": ""
+      },
+      "description": {
+        "fr": "Jambon fumé, tomates confites, mozzarella di bufala, pesto maison",
+        "en": "Country ham, dried tomatoes, mozzarella di bufala, pesto",
+        "it": ""
+      },
+      "price": 13.5
+    },
+    {
+      "title": {
+        "fr": "Braque",
+        "en": "",
+        "it": ""
+      },
+      "description": {
+        "fr": "Magret de canard fumé, champignons, emmental, crème ciboulette",
+        "en": "Smoked duck breast, mushrooms, emmental cheese, chives cream",
+        "it": ""
+      },
+      "price": 13.5
+    },
+    {
+      "title": {
+        "fr": "Vasarely",
+        "en": "",
+        "it": ""
+      },
+      "description": {
+        "fr": "Légumes de saison, chèvre, miel, piment d’Espelette",
+        "en": "Seasonal vegetables, goat cheese, honey, Espelette chilli pepper",
+        "it": ""
+      },
+      "price": 13.5
+    },
+    {
+      "title": {
+        "fr": "Picasso",
+        "en": "",
+        "it": ""
+      },
+      "description": {
+        "fr": "Fondue de poireaux à la crème, œuf, fromage bleu d’Auvergne",
+        "en": "Creamed leeks, egg, Auvergne blue chesse",
+        "it": ""
+      },
+      "price": 13.5
+    },
+    {
+      "title": {
+        "fr": "Peynet",
+        "en": "",
+        "it": ""
+      },
+      "description": {
+        "fr": "Crevettes sauce saté et lait de coco, poêlée de légumes",
+        "en": "Prawns, coconut sate sauce, vegetables",
+        "it": ""
+      },
+      "price": 14.5
+    },
+    {
+      "title": {
+        "fr": "Van Gogh",
+        "en": "",
+        "it": ""
+      },
+      "description": {
+        "fr": "Saumon fumé, chèvre, crème ciboulette citronnée",
+        "en": "Smoked salmon, goat cheese, lemon chived cream",
+        "it": ""
+      },
+      "price": 14.5
+    }
+  ]
+}

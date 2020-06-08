@@ -1,0 +1,22 @@
+{
+  "name": "lfdmmenu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html --out-dir public"
+  },
+  "dependencies": {
+    "alpinejs": "2.3.5",
+    "flickity": "2.2.1",
+    "google-maps-reviews": "0.1.0",
+    "sass-mq": "5.0.1",
+    "tiny-slider": "2.9.2"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": []
+}
