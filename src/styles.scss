@@ -154,10 +154,7 @@ cursor: pointer;
     }
   }
 }
-.tab:first-of-type {
-  //display: none;
-  border-right: none;
-}
+
 .tab.active {
   background-color: $text-color;
   color: white;
@@ -239,7 +236,7 @@ z-index: 10;
   letter-spacing: -0.033em;
 
   & + & {
-    border-right: none;
+    border-left: none;
   }
 }
 
