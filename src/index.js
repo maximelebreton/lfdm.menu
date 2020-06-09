@@ -41,6 +41,10 @@ window.data = () => ({
     galettes
   },
 
+  getLang() {
+    return this.lang;
+  },
+
   t(payload) {
     if (!payload[this.lang] || payload[this.lang] === "") {
       return payload["fr"];

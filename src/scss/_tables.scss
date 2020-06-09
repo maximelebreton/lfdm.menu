@@ -97,7 +97,7 @@ table {
     text-align: $table-cell-text-align;
     border-top: $table-cell-border-top;
 
-    @include mq($from: tablet) {
+    @media screen and (min-width: 480px) {
         padding: $padding-medium $padding-base;
     }
 }
