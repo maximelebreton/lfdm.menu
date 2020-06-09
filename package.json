@@ -11,7 +11,6 @@
     "alpinejs": "2.3.5",
     "flickity": "2.2.1",
     "google-maps-reviews": "0.1.0",
-    "posthtml-include": "1.4.3",
     "sass-mq": "5.0.1",
     "tiny-slider": "2.9.2"
   },
