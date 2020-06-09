@@ -13,7 +13,7 @@ $table-border-color: rgba(#222, .25);
 // ----------------------------------------
 
 $container-width: 88%;
-$container-max-width: 40em;
+
 
 // ----------------------------------------
 // // ------ table settings ------
@@ -97,7 +97,7 @@ table {
     text-align: $table-cell-text-align;
     border-top: $table-cell-border-top;
 
-    @media screen and (min-width: 480px) {
+    @media #{$mq-mobile-up} {
         padding: $padding-medium $padding-base;
     }
 }

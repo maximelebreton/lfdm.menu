@@ -10,7 +10,13 @@ $mq-breakpoints: (
 );
 
 
+$container-max-width: 800px;
+$mobile: 480px;
 
+$mq-mobile-up: screen and (min-width: #{$mobile});
+$mq-mobile-down: screen and (max-width: #{$mobile - 1});
+
+$dark: #222;
 $ff-sans-serif: 'Noto Sans', serif;
 $ff-serif: 'Noto Serif JP', serif;
 $text-color: #222;

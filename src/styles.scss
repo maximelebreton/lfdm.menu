@@ -57,7 +57,7 @@ body {
 }
 
 .app {
-  max-width: 800px;
+  max-width: $container-max-width;
   width: 100%;
   margin: auto;
   min-height: 100vh;

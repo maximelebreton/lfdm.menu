@@ -14,7 +14,7 @@
   background-color: $body-bg;
   body.en & {
     background-color: $en-bg;
-  }
+  }  
   &::-webkit-scrollbar {
     // display: none;
     // -ms-overflow-style: none;
@@ -65,13 +65,24 @@ z-index: 10;
   font-family: $ff-sans-serif;
   letter-spacing: -0.033em;
 
+
   & + & {
     border-left: none;
   }
 }
 .tab:first-of-type {
   //display: none;
-  //border-right: none;
+  @media #{$mq-mobile-down} {
+    // border-left: none;
+    // border-top-left-radius: 1rem;
+  }
+}
+.tab:last-of-type {
+  //display: none;
+  @media #{$mq-mobile-down} {
+    // border-right: none;
+    // border-top-right-radius: 1rem;
+  }
 }
 .tab.active {
   background-color: $text-color;
