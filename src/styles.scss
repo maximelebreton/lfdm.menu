@@ -191,6 +191,7 @@ cursor: pointer;
   margin-left: -1px;
   margin-right: -1px;
   background-color: $body-bg;
+  margin-bottom: 2rem;
   &::-webkit-scrollbar {
     // display: none;
     // -ms-overflow-style: none;
@@ -198,7 +199,7 @@ cursor: pointer;
   
 }
 .tabs-container {
-  padding-bottom: 2rem;
+  
 
   position: sticky;
 top: 0;
