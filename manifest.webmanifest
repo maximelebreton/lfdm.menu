@@ -1,8 +1,8 @@
 {
   "short_name": "Menu LFDM",
   "name": "Menu - Les Filles Du Micocoulier",
-  "theme_color": "#C6E4E1",
-  "background_color": "#C6E4E1",
+  "theme_color": "#222",
+  "background_color": "#222",
   "display": "fullscreen",
   "Scope": "/",
   "orientation": "portrait",
