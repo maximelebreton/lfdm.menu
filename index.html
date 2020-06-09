@@ -6,8 +6,8 @@
       <meta name="theme-color" content="#C6E4E1" />
 
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Noto+Serif+JP:wght@400;600&display=swap" rel="stylesheet">
-      <link rel="manifest" href="manifest.webmanifest">
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Noto+Serif+JP:wght@400;500;600&family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
+      <link rel='manifest' href='/manifest.json'>
       <link rel="icon" type="image/png" href="src/icons/icon-96x96.png" />
 
 
@@ -15,13 +15,16 @@
          [x-cloak] { display: none; }
       </style>
    </head>
-   <body id="FR_LFDM_MENU_280x280_0320" lang="fr-FR">
+   <body>
+         <include src="src/partials/test.html"></include>
       <div class="app" x-cloak x-init="() => {init(); }" x-data="data()">
+            
 
-         
+
 
       <!-- START-->
       <div class="tabs-container">
+
          <div class="tabs">
             
                <template x-for="(tab, index) in menu.common.tabs" :key="index">
@@ -30,7 +33,7 @@
 
                         <span x-text="t(menu.common.tabs[index].title)"></span>
                         <template x-if="index === 0">
-                              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="icon icon--home"  viewBox="0 0 460.298 460.297">
+                              <svg class="icon icon--home"  viewBox="0 0 460.298 460.297">
                                  <use xlink:href="#home"></use>
                               </svg>
                         </template>
@@ -48,7 +51,7 @@
       <div class="carousel">
       <div class="carousel-cell carousel-cell--center">
          <div class="home">
-         <img src="src/logo.svg" width="128" height="128" class="logo" />
+         <img src="src/img/logo.svg" width="128" height="128" class="logo" />
 
          <button @click="selectTab(1)" class="home-title">
 <span x-text="t(menu.common.home.title)" ></span> <div class="anim">→</div>
@@ -56,14 +59,14 @@
 
          <div class="langs">
             <button class="lang" :class="{ 'active': lang === 'fr' }" x-on:click="selectLang('fr')">
-               <img src="src/france.svg" width="24" height="24" />
+               <img src="src/img/france.svg" width="24" height="24" />
             </button>
             <button class="lang" :class="{ 'active': lang === 'en' }" x-on:click="selectLang('en')">
-               <img src="src/united-kingdom.svg" width="24" height="24" />
+               <img src="src/img/united-kingdom.svg" width="24" height="24" />
             </button>
             <!-- <button class="lang" :class="{ 'active': lang === 'it' }" x-on:click="selectLang('it')">it</button> -->
             </div>
-            <!-- <img class="icon" height="24" width="24" src="src/facebook.svg" /> -->
+            <!-- <img class="icon" height="24" width="24" src="src/img/facebook.svg" /> -->
             
 
          </div>
@@ -122,7 +125,10 @@
                </tr>
             </template>
          </table>
+         <div class="product-description" x-html="t(menu.common.extra)"></div>
+
          </div>
+         
       </div>
       <div class="carousel-cell">
          <div class="row">
@@ -192,7 +198,7 @@
       
       <div class="category-description" x-text="t(menu.desserts.description)"></div>
       <br>
-      <div class="product-description" x-html="t(menu.desserts.extra)"></div>
+      <div class="product-description" x-html="t(menu.common.extra)"></div>
       </div>
       </div>
 
@@ -213,11 +219,11 @@
 
 
          <div class="social">
-               <a  href="https://www.facebook.com/lesfillesdumicocoulier/"><img class="icon" height="24" width="24" src="src/facebook.svg" /></a> | <a target="_blank" href="https://www.google.com/search?output=search&q=Les+Filles+du+Micocoulier&ludocid=6835805515096355120&lsig=AB86z5VsvPkJot75enOMtr4ZsCwe&kgs=467d3ac931b1e52f&shndl=-1&source=sh/x/kp/local&entrypoint=sh/x/kp/local"><img class="icon" height="24" width="24" src="src/google.svg" /></a>
+               <a  href="https://www.facebook.com/lesfillesdumicocoulier/"><img class="icon" height="24" width="24" src="src/img/facebook.svg" /></a> | <a target="_blank" href="https://www.google.com/search?output=search&q=Les+Filles+du+Micocoulier&ludocid=6835805515096355120&lsig=AB86z5VsvPkJot75enOMtr4ZsCwe&kgs=467d3ac931b1e52f&shndl=-1&source=sh/x/kp/local&entrypoint=sh/x/kp/local"><img class="icon" height="24" width="24" src="src/img/google.svg" /></a>
             </div>
 
          <div><br>
-            <small>© Les Filles du Micocoulier — <a href="https://maximelebreton.com" target="_blank"><img title="Réalisé par Maxime Le Breton" src="src/logo-mlb.svg" style="vertical-align: baseline;" height="16" /></a></small>
+            <small>© Les Filles du Micocoulier — <a href="https://maximelebreton.com" target="_blank"><img title="Réalisé par Maxime Le Breton" src="src/img/logo-mlb.svg" style="vertical-align: baseline;" height="16" /></a></small>
          </div>
 
       </footer>

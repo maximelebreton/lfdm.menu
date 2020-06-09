@@ -1,0 +1,63 @@
+
+$animation-logo-duration: 1s;
+$animation-ui-duration: 500ms;
+$animation-ui-top: ui-top $animation-ui-duration;
+$animation-ui-delay: 0s;
+$animation-delay-coeff: 1.5;
+$animation-ui-delay-1: $animation-ui-delay * $animation-delay-coeff;
+$animation-ui-delay-2: $animation-ui-delay-1 * $animation-delay-coeff;
+$animation-ui-delay-3: $animation-ui-delay-2 * $animation-delay-coeff;
+$animation-ui-delay-4: $animation-ui-delay-3 * $animation-delay-coeff;
+$animation-ui-fill-mode: both;
+$animation-ui-easing: ease;
+$animation-ui: $animation-ui-duration $animation-ui-easing $animation-ui-delay $animation-ui-fill-mode opacity;
+
+
+@keyframes pulse {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    transform: scale3d(1.2, 1.2, 1.2);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes logo {
+  from {
+    opacity: 0;
+    //transform: translateY(50%);
+  }
+}
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+}
+@keyframes ui-top {
+  from {
+    opacity: 0;
+    transform: translateY(-25%);
+  }
+}
+@keyframes ui-bottom {
+  from {
+    opacity: 0;
+    transform: translateY(25%);
+  }
+}
+
+@keyframes slide1 {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translate(10px, 0);
+  }
+}

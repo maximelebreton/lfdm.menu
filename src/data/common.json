@@ -1,0 +1,63 @@
+{
+  "extra": {
+    "fr": "Supplément: crème Chantilly, chocolat, coco râpée, caramel beurre salé, amandes effilées: 2,00 €<br/> Supplément alcool: 3,00 €",
+    "en": "Extra: whipped cream or hot chocolate or salted butter caramel or almond flakes or grated coconut : 2,00 €<br/> Extra alcohol: 3,00 €",
+    "it": ""
+  },
+  "home": {
+    "title": {
+      "fr": "Menu",
+      "en": "Menu"
+    }
+  },
+  "tabs": [
+    {
+      "title": {
+        "fr": "",
+        "en": "",
+        "it": ""
+      }
+    },
+    {
+      "title": {
+        "fr": "Apéro / Brasserie",
+        "en": "",
+        "it": ""
+      }
+    },
+    {
+      "title": {
+        "fr": "Galettes",
+        "en": "Savoury Crepes",
+        "it": ""
+      }
+    },
+    {
+      "title": {
+        "fr": "Crêpes",
+        "en": "Sweet Crepes",
+        "it": ""
+      }
+    },
+    {
+      "title": {
+        "fr": "Boissons",
+        "en": "Drinks",
+        "it": ""
+      }
+    },
+    {
+      "title": {
+        "fr": "Desserts",
+        "en": "Desserts",
+        "it": ""
+      }
+    }
+  ],
+  "footer": {
+    "title": {
+      "fr": "L’abus d’alcool est dangereux pour la santé, à consommer avec modération.<br> Prix nets en euros, service compris - La maison n’accepte plus les chèques",
+      "en": "Making too free a use of alcohol can be detrimental to your health. To be temperately consumed. <br> All net prices - Means of payment: cash, card - cheques not accepted"
+    }
+  }
+}

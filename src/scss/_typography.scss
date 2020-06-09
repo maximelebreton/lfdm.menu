@@ -1,0 +1,21 @@
+
+.product-title {
+  font-weight: 600;
+  // display: flex;
+}
+.product-title--small {
+  //font-weight: normal;
+  //font-size: 80%;
+  //font-family: $ff-sans-serif;
+  // display: flex;
+}
+.product-description, .type-title {
+  color: rgba(#222, .75);
+  font-size: 80%;
+  font-family: $ff-sans-serif;
+  font-weight: normal;
+}
+.product-price {
+  font-family: $ff-sans-serif;
+  font-size: 80%;
+}

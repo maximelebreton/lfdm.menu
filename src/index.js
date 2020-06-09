@@ -1,13 +1,13 @@
 import "alpinejs";
 import "./styles.scss";
-import boissons from "./boissons.json";
-import boissons2 from "./boissons-2.json";
-import crepes from "./crepes.json";
-import apero from "./apero.json";
-import brasserie from "./brasserie.json";
-import desserts from "./desserts.json";
-import galettes from "./galettes.json";
-import common from "./common.json";
+import boissons from "./data/boissons.json";
+import boissons2 from "./data/boissons-2.json";
+import crepes from "./data/crepes.json";
+import apero from "./data/apero.json";
+import brasserie from "./data/brasserie.json";
+import desserts from "./data/desserts.json";
+import galettes from "./data/galettes.json";
+import common from "./data/common.json";
 import Flickity from "flickity";
 import googlePlaces from "google-maps-reviews";
 import "flickity/dist/flickity.min.css";
@@ -79,7 +79,8 @@ window.data = () => ({
       prevNextButtons: false,
       pageDots: false,
       adaptiveHeight: true,
-      resize: true
+      resize: true,
+      dragThreshold: 30
       //setGallerySize: false
     });
     this.carousel.on("change", index => {

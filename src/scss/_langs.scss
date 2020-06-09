@@ -1,0 +1,28 @@
+.langs {
+  display: flex;
+  //margin: auto;
+  justify-content: center;
+  margin-top: 1rem;
+
+  animation: $animation-ui;
+  animation-name: ui-bottom;
+  animation-delay: $animation-ui-delay-2;
+}
+
+.lang {
+  height: 24px;
+  background: transparent;
+  border: transparent;
+  cursor: pointer;
+  opacity: 0.5;
+  //transform: scale(0.8);
+  transition: all ease 200ms;
+
+  &.active {
+  opacity: 1;
+  animation-duration: 350ms;
+  animation-name: pulse;
+
+  //transform: scale(1);
+  }
+}

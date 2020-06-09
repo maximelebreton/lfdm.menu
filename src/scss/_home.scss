@@ -1,0 +1,19 @@
+.home {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  margin: auto 0;
+}
+.home-title {
+  font-family: $ff-serif;
+  background-color: transparent;
+  font-size: 200%;
+  border: none;
+  margin: 1em 0;
+  text-transform: uppercase;
+
+  animation: $animation-ui;
+  animation-delay: $animation-ui-delay-1;
+}

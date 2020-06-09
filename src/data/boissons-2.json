@@ -1,0 +1,396 @@
+{
+  "categories": [
+    {
+      "id": "",
+      "title": {
+        "fr": "Bières pression",
+        "en": "Draught Beer",
+        "it": ""
+      },
+      "products": [
+        {
+          "title": {
+            "fr": "Carlsberg",
+            "en": "",
+            "it": ""
+          },
+          "description": {
+            "fr": "4,8°",
+            "en": "",
+            "it": ""
+          },
+          "price": 3.9
+        },
+        {
+          "title": {
+            "fr": "Grimbergen de saison",
+            "en": "Grimbergen seasonal beer",
+            "it": ""
+          },
+          "description": {
+            "fr": "6°",
+            "en": "",
+            "it": ""
+          },
+          "price": 4.2
+        },
+        {
+          "title": {
+            "fr": "Panaché, Monaco, Gomé",
+            "en": "Shandy, Monaco, Gomé",
+            "it": ""
+          },
+          "description": {
+            "fr": "",
+            "en": "",
+            "it": ""
+          },
+          "price": 3.9
+        },
+        {
+          "title": {
+            "fr": "Picon bière",
+            "en": "",
+            "it": ""
+          },
+          "description": {
+            "fr": "",
+            "en": "",
+            "it": ""
+          },
+          "price": 4.7
+        }
+      ]
+    },
+
+    {
+      "id": "",
+      "title": {
+        "fr": "Bières bouteille",
+        "en": "Bottle of Beer",
+        "it": ""
+      },
+      "products": [
+        {
+          "title": {
+            "fr": "Buckler",
+            "en": "",
+            "it": ""
+          },
+          "description": {
+            "fr": "33cl (bière sans alcool)",
+            "en": "33cl (Beer without alcohol)",
+            "it": ""
+          },
+          "price": 4.6
+        },
+        {
+          "title": {
+            "fr": "Desperados",
+            "en": "",
+            "it": ""
+          },
+          "description": {
+            "fr": "33cl",
+            "en": "",
+            "it": ""
+          },
+          "price": 5.5
+        },
+        {
+          "title": {
+            "fr": "Heineken",
+            "en": "",
+            "it": ""
+          },
+          "description": {
+            "fr": "33cl",
+            "en": "",
+            "it": ""
+          },
+          "price": 4.8
+        },
+        {
+          "title": {
+            "fr": "Bière blonde bio du lubéron",
+            "en": "Organic beer",
+            "it": ""
+          },
+          "description": {
+            "fr": "33cl",
+            "en": "",
+            "it": ""
+          },
+          "price": 4.9
+        }
+      ]
+    },
+
+    {
+      "id": "",
+      "title": {
+        "fr": "Apéritifs",
+        "en": "Aperitiv",
+        "it": ""
+      },
+      "products": [
+        {
+          "title": {
+            "fr": "Spritz",
+            "en": "",
+            "it": ""
+          },
+          "description": {
+            "fr": "14cl",
+            "en": "",
+            "it": ""
+          },
+          "price": 7.5
+        },
+        {
+          "title": {
+            "fr": "Champagne",
+            "en": "",
+            "it": ""
+          },
+          "description": {
+            "fr": "12cl",
+            "en": "",
+            "it": ""
+          },
+          "price": 9.5
+        },
+        {
+          "title": {
+            "fr": "Americano",
+            "en": "",
+            "it": ""
+          },
+          "description": {
+            "fr": "6cl",
+            "en": "",
+            "it": ""
+          },
+          "price": 8
+        },
+        {
+          "title": {
+            "fr": "Campari, Martini rouge ou blanc",
+            "en": "Campari, Martini red or white",
+            "it": ""
+          },
+          "description": {
+            "fr": "4cl",
+            "en": "",
+            "it": ""
+          },
+          "price": 5.5
+        },
+        {
+          "title": {
+            "fr": "Pastis, Ricard",
+            "en": "",
+            "it": ""
+          },
+          "description": {
+            "fr": "2cl",
+            "en": "",
+            "it": ""
+          },
+          "price": 3
+        }
+      ]
+    },
+
+    {
+      "id": "",
+      "title": {
+        "fr": "Digestifs",
+        "en": "Digestive",
+        "it": ""
+      },
+      "products": [
+        {
+          "title": {
+            "fr": "Whisky, Vodka, Gin",
+            "en": "",
+            "it": ""
+          },
+          "description": {
+            "fr": "4cl",
+            "en": "",
+            "it": ""
+          },
+          "price": 6
+        },
+        {
+          "title": {
+            "fr": "Cognac, Armagnac",
+            "en": "",
+            "it": ""
+          },
+          "description": {
+            "fr": "4cl",
+            "en": "",
+            "it": ""
+          },
+          "price": 7
+        },
+        {
+          "title": {
+            "fr": "Limoncello",
+            "en": "",
+            "it": ""
+          },
+          "description": {
+            "fr": "4cl",
+            "en": "",
+            "it": ""
+          },
+          "price": 3
+        },
+        {
+          "title": {
+            "fr": "Get 27",
+            "en": "",
+            "it": ""
+          },
+          "description": {
+            "fr": "4cl",
+            "en": "",
+            "it": ""
+          },
+          "price": 5
+        },
+        {
+          "title": {
+            "fr": "Rhum Diplomatico",
+            "en": "",
+            "it": ""
+          },
+          "description": {
+            "fr": "4cl",
+            "en": "",
+            "it": ""
+          },
+          "price": 9
+        }
+      ]
+    },
+
+    {
+      "id": "",
+      "title": {
+        "fr": "Boissons chaudes",
+        "en": "Hot Drink",
+        "it": ""
+      },
+      "products": [
+        {
+          "title": {
+            "fr": "Expresso",
+            "en": "",
+            "it": ""
+          },
+          "description": {
+            "fr": "",
+            "en": "",
+            "it": ""
+          },
+          "price": 1.8
+        },
+        {
+          "title": {
+            "fr": "Café américain",
+            "en": "Caffè américano",
+            "it": ""
+          },
+          "description": {
+            "fr": "",
+            "en": "",
+            "it": ""
+          },
+          "price": 1.9
+        },
+        {
+          "title": {
+            "fr": "Chocolat",
+            "en": "Hot chocolate",
+            "it": ""
+          },
+          "description": {
+            "fr": "",
+            "en": "",
+            "it": ""
+          },
+          "price": 3.8
+        },
+        {
+          "title": {
+            "fr": "Thé Kusmi",
+            "en": "Kusmi Tea",
+            "it": ""
+          },
+          "description": {
+            "fr": "",
+            "en": "",
+            "it": ""
+          },
+          "price": 3.9
+        },
+        {
+          "title": {
+            "fr": "Noisette",
+            "en": "Macchiato",
+            "it": ""
+          },
+          "description": {
+            "fr": "",
+            "en": "",
+            "it": ""
+          },
+          "price": 1.9
+        },
+        {
+          "title": {
+            "fr": "Cappucino",
+            "en": "",
+            "it": ""
+          },
+          "description": {
+            "fr": "",
+            "en": "",
+            "it": ""
+          },
+          "price": 3.8
+        },
+        {
+          "title": {
+            "fr": "Café ou chocolat viennois",
+            "en": "Coffee or chocolat, whipped cream",
+            "it": ""
+          },
+          "description": {
+            "fr": "",
+            "en": "",
+            "it": ""
+          },
+          "price": 4.2
+        },
+        {
+          "title": {
+            "fr": "Café crème",
+            "en": "Caffè latte",
+            "it": ""
+          },
+          "description": {
+            "fr": "",
+            "en": "",
+            "it": ""
+          },
+          "price": 3.6
+        }
+      ]
+    }
+  ]
+}

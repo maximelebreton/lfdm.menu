@@ -1,26 +1,24 @@
-$padding-small: .5rem;
-$padding-medium: .75rem;
-$padding-base: 1rem;
+@import 'scss/variables';
+@import 'sass-mq/mq';
 
-$mq-breakpoints: (
-    mobile:  320px,
-    tablet:  480px,
-    desktop: 980px,
-    wide:    1300px
-);
+@import 'scss/animations';
 
-$ff-sans-serif: 'Noto Sans', serif;
-$ff-serif: 'Noto Serif JP', serif;
+@import 'scss/home';
+@import 'scss/tables';
+@import 'scss/carousel';
+@import 'scss/tabs';
+@import 'scss/langs';
+@import 'scss/typography';
+@import 'scss/icons';
+@import 'scss/menu';
+@import 'scss/footer';
 
-
-
-@import 'tables.scss';
-
-$text-color: #222;
-$body-bg: #C6E4E1;
-.icon--white {
-  color: white;
+* {
+  box-sizing: border-box;
 }
+
+
+
 a {
   color: $text-color;
 }
@@ -31,6 +29,7 @@ button {
 //   box-sizing: border-box;
 // }
 
+
 body {
   color: #222;
   background-color: $body-bg;
@@ -39,23 +38,20 @@ body {
   margin: 0;
   //font-family: 'Courier New', Courier, monospace;
   font-family: $ff-serif;
+  
 }
-.home {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-direction: column;
-  height: 100%;
-  margin: auto 0;
+
+
+
+
+.logo {
+  width: 128px;
+  height: 128px;
+  animation-name: logo;
+  animation-duration: $animation-logo-duration;
+  animation-timing-function: cubic-bezier(0, 0.55, 0.45, 1);
 }
-.home-title {
-  font-family: $ff-serif;
-  background-color: transparent;
-  font-size: 200%;
-  border: none;
-  margin: 1em 0;
-  text-transform: uppercase;
-}
+
 .app {
   max-width: 800px;
   width: 100%;
@@ -69,37 +65,9 @@ body {
   }
 }
 
-.langs {
-  display: flex;
-  //margin: auto;
-  justify-content: center;
-  margin-top: 1rem;
-}
-.lang {
-  height: 24px;
-background: transparent;
-border: transparent;
-cursor: pointer;
-}
-.flickity-viewport {
-  //margin: auto 0;
-  min-height: 100%;
-  flex-grow: 1;
-}
-.flickity-slider {
-  display: flex;
-}
 
-@keyframes slide1 {
-  0%,
-  100% {
-    transform: translate(0, 0);
-  }
 
-  50% {
-    transform: translate(10px, 0);
-  }
-}
+
 .anim {
   animation: slide1 1s ease-in-out infinite;
   //display: inline-block;
@@ -112,242 +80,10 @@ cursor: pointer;
   // flex-grow: 1;
 //}
 
-.carousel {
-  display: flex;
-  flex-direction: column;
-  // height: 100%;
-  flex-grow: 1;
-
-}
-.carousel-cell--center {
-  margin: auto 0;
-}
-.carousel-cell {
-  min-height: 100%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  opacity: 0;
-  transition: opacity 200ms ease;
-  &.is-selected {
-    opacity: 1;
-  }
-  overflow: hidden;
-  //max-width: $container-max-width;
-  //width: $container-width;
-  
-  padding-right: 1rem;
-  padding-left: 1rem;
-  padding-bottom: 1rem;
-  width: calc(100% - 2rem) !important;
-  // height: 100%;
-
-  .row {
-    
-    display: flex;
-    flex-direction: column;
-
-    & .table {
-      margin-left: -1rem;
-      margin-right: -1rem;
-      width: calc(100% + 2rem);
-    }
-  }
-}
-
-.tab.active {
-  background-color: $text-color;
-  color: white;
-}
-.table {
-  pointer-events: none;
-  
-  //width: 100%;
-  max-width: inherit;
-}
-.table td, .table th {
-  text-align: right;
-  
-}
-.table td:first-child, .table th:first-child {
-  text-align: left;
-}
-.table tr:hover td, .table tr:hover + tr td {
-  //background-color: rgba(white, .1);
-  border-color: black !important;
-  transition: border ease 300ms;
-}
-
-.tabs {
-  display: flex;
-  
-  flex-direction: row;
-  width: 100%;
-  overflow-x: auto;
-  
-  //margin: calc(-1rem - 1px);
-  border-bottom: 1px solid $text-color;
-  position: relative;
-  margin-left: -1px;
-  margin-right: -1px;
-  background-color: $body-bg;
-  margin-bottom: 2rem;
-  &::-webkit-scrollbar {
-    // display: none;
-    // -ms-overflow-style: none;
-  }
-  
-}
-.tabs-container {
-  
-
-  position: sticky;
-top: 0;
-z-index: 10;
-&::after {
-  content: "";
-  position:absolute;
-  bottom: 0;left: 0;right: 0;
-  height: 2rem;
-  background: linear-gradient(to bottom, $body-bg, transparent);
-}
-  
-  // &::after {
-  //   content: '';
-  //   position: absolute;
-  //   right: -1rem;
-  //   top: 0;
-  //   bottom: 0;
-  //   width: 1rem;
-  //   background: linear-gradient(to left, $body-bg, transparent);
-  // }
-}
-.tab {
-  flex-grow: 1;
-  border: 1px solid $text-color;
-  border-bottom: none;
-  padding: 1rem;
-  background: transparent;
-  cursor: pointer;
-  border-top: none;
-  text-transform: uppercase;
-  font-size: 66%;
-  //font-weight: bold;
-  font-family: $ff-sans-serif;
-  letter-spacing: -0.033em;
-
-  & + & {
-    border-left: none;
-  }
-}
-
-.product-title {
-  font-weight: 600;
-  // display: flex;
-}
-.product-title--small {
-  //font-weight: normal;
-  //font-size: 80%;
-  //font-family: $ff-sans-serif;
-  // display: flex;
-}
-.product-description, .type-title {
-  color: rgba(#222, .75);
-  font-size: 80%;
-  font-family: $ff-sans-serif;
-  font-weight: normal;
-}
-.product-price {
-  font-family: $ff-sans-serif;
-  font-size: 80%;
-}
-.d-flex {
-  display: flex;
-  flex-direction: column;
-}
-
-.table-container {
-  // overflow-x:scroll; 
-  // overflow-y:visible;
-  //overflow-x:auto;
-  width: 100%;
-}
 
 
-.headcol {
-  position:absolute; 
-  width:5em; 
-  right:0;
-  top:auto;
-  border-right: 0px none black; 
-  border-top-width:3px; /*only relevant for first row*/
-  margin-top:-3px; /*compensate for top border*/
-}
-.headcol:before {content: 'Row ';}
 
-.menu {
-  display: flex;
-}
 
-.row {
-  display: flex;
-  flex-direction: row;
-}
-.col {
-  display: flex;
-}
-
-.category-block {
-  display: flex;
-  flex-direction: column;
-  border: 1px solid red;
-}
-.category-title {
-  //border: 1px solid blue;
-  font-weight: bold;
-  background-color: #222;
-  color: white;
-  padding: .25em .5em;
-  display: inline-flex;
-  text-align: center;
-  margin: 0 auto;
-  display: inline-flex;
-  margin-bottom: 1rem;
-}
-.category-description {
-  font-size: 75%;
-  color: rgba($text-color, 1);
-  font-family: $ff-sans-serif;
-  text-transform: uppercase;
-  margin: auto;
-  margin-top: 0;
-  margin-bottom: 1rem;
-}
-.FAMILLE-BOISSONS, .PLAT {
-  border: 1px solid green;
-}
-.CharOverride-2 {
-  //background-color: pink;
-  font-size: 75%;
-  font-weight: bold;
-}
-.CharOverride-3 {
-  background-color: pink;
-  font-size: 75%;
-  font-weight: bold;
-}
-.INGREDIENTS {
-  background-color: orange;
-}
-
-footer {
-  font-family: $ff-sans-serif;
-  text-align: center;
-  font-size: 80%;
-  color: rgba(#222, .5);
-  padding: 1rem;
-  padding-top: 2rem;
-}
 .social {
   margin-top: 2rem;
   display: flex;
@@ -359,15 +95,7 @@ footer {
     margin: 0 .5em;
   }
 }
-.icon {
-  
-  width: 16px;
-  height: 16px;
-}
-.icon--home {
-  width: 12px;
-  height: 12px;
-}
+
 #google-reviews {
   h3 {
     display: none;
