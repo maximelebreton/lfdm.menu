@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "start": "parcel index.html --open",
-    "build": "parcel build index.html --out-dir public --no-minify"
+    "build": "parcel build index.html --out-dir public"
   },
   "dependencies": {
     "alpinejs": "2.3.5",
