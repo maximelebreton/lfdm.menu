@@ -106,6 +106,11 @@ window.data = () => ({
       this.selectedTab = index;
     });
     this.carousel.on("settle", (index) => {
+      const element = document.querySelector(".is-selected");
+      const rect = element.getBoundingClientRect();
+      const viewport = document.querySelector(".flickity-viewport");
+      viewport.style.height = rect.height + "px";
+      //console.log(rect.height);
       // const reviewsIndex = this.menu.common.tabs.findIndex(value => {
       //   return value.id === "reviews";
       // });

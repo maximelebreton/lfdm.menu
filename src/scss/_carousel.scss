@@ -50,7 +50,8 @@
   //margin: auto 0;
   //min-height: 100%;
   flex-grow: 1;
-  
+    transition: height 0.2s;
+
 }
 .flickity-slider {
   display: flex;
