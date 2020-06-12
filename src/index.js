@@ -11,8 +11,7 @@ import common from "./data/common.json";
 import Flickity from "flickity";
 import googlePlaces from "google-maps-reviews";
 import "flickity/dist/flickity.min.css";
-import "google-maps-reviews/google-maps-reviews.css";
-// import { tns } from "tiny-slider/src/tiny-slider";
+//import "google-maps-reviews/google-maps-reviews.css";
 
 const getDefaultLang = function () {
   const lang =
@@ -57,26 +56,30 @@ window.data = () => ({
     this.lang = value;
   },
   selectTab(value) {
-    this.selectedTab = value;
-    if (window.scrollY) {
-      window.scroll(0, 0); // reset the scroll position to the top left of the document.
-      // var c = document.getElementById("carousel");
-      // c.scrollIntoView();
+    //this.selectedTab = value;
+
+    if (this.carousel.selectedIndex !== value) {
+      this.carousel.select(value);
     }
 
-    this.carousel.select(value);
     var elmnt = document.getElementById("tab" + value);
     elmnt.scrollIntoView();
   },
   init() {
-    var elem = document.querySelector(".carousel");
+    this.initFlickity();
+  },
 
+  initTns() {
     // this.carousel = tns({
     //   container: ".carousel",
     //   items: 1,
     //   slideBy: "page",
     //   autoplay: true
     // });
+  },
+
+  initFlickity() {
+    var elem = document.querySelector(".carousel");
 
     this.carousel = new Flickity(elem, {
       initialIndex: this.selectedTab,
@@ -90,8 +93,12 @@ window.data = () => ({
       //setGallerySize: false
     });
     this.carousel.on("select", (index) => {
-      this.selectTab(index);
-
+      this.selectedTab = index;
+      if (window.scrollY) {
+        window.scroll(0, 0); // reset the scroll position to the top left of the document.
+        // var c = document.getElementById("carousel");
+        // c.scrollIntoView();
+      }
       // const reviewsIndex = this.menu.common.tabs.findIndex(value => {
       //   return value.id === "reviews";
       // });
