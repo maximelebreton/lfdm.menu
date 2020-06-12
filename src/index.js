@@ -80,7 +80,7 @@ window.data = () => ({
 
     this.carousel = new Flickity(elem, {
       initialIndex: this.selectedTab,
-      cellAlign: "left",
+      //cellAlign: "left",
       contain: true,
       prevNextButtons: false,
       pageDots: false,
