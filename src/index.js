@@ -98,7 +98,7 @@ window.data = () => ({
       dragThreshold: 30
       //setGallerySize: false
     });
-    this.carousel.on("select", (index) => {
+    this.carousel.on("change", (index) => {
       window.scrollTo({
         top: 0,
         behavior: "smooth"
