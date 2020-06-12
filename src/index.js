@@ -57,14 +57,14 @@ window.data = () => ({
   },
   selectTab(value) {
     //this.selectedTab = value;
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth"
-    });
 
     if (this.carousel.selectedIndex !== value) {
       this.carousel.select(value);
-
+      var elmnt = document.getElementById("tab" + value);
+      elmnt.scrollTo({
+        left: 0,
+        behavior: "smooth"
+      });
       //if (window.scrollY) {
       //window.scroll(0, 0); // reset the scroll position to the top left of the document.
 
@@ -98,18 +98,14 @@ window.data = () => ({
       dragThreshold: 30
       //setGallerySize: false
     });
-    // this.carousel.on("change", (index) => {
-    //   window.scrollTo({
-    //     top: 0
-    //   });
-    // });
-    this.carousel.on("settle", (index) => {
-      this.selectedTab = index;
-      var elmnt = document.getElementById("tab" + value);
-      elmnt.scrollTo({
-        left: 0,
+    this.carousel.on("select", (index) => {
+      window.scrollTo({
+        top: 0,
         behavior: "smooth"
       });
+      this.selectedTab = index;
+    });
+    this.carousel.on("settle", (index) => {
       // const reviewsIndex = this.menu.common.tabs.findIndex(value => {
       //   return value.id === "reviews";
       // });
