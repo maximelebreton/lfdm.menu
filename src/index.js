@@ -57,13 +57,19 @@ window.data = () => ({
   },
   selectTab(value) {
     //this.selectedTab = value;
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
 
     if (this.carousel.selectedIndex !== value) {
       this.carousel.select(value);
-    }
 
-    var elmnt = document.getElementById("tab" + value);
-    elmnt.scrollIntoView();
+      //if (window.scrollY) {
+      //window.scroll(0, 0); // reset the scroll position to the top left of the document.
+
+      //}
+    }
   },
   init() {
     this.initFlickity();
@@ -92,13 +98,18 @@ window.data = () => ({
       dragThreshold: 30
       //setGallerySize: false
     });
-    this.carousel.on("select", (index) => {
+    // this.carousel.on("change", (index) => {
+    //   window.scrollTo({
+    //     top: 0
+    //   });
+    // });
+    this.carousel.on("settle", (index) => {
       this.selectedTab = index;
-      if (window.scrollY) {
-        window.scroll(0, 0); // reset the scroll position to the top left of the document.
-        // var c = document.getElementById("carousel");
-        // c.scrollIntoView();
-      }
+      var elmnt = document.getElementById("tab" + value);
+      elmnt.scrollTo({
+        left: 0,
+        behavior: "smooth"
+      });
       // const reviewsIndex = this.menu.common.tabs.findIndex(value => {
       //   return value.id === "reviews";
       // });
