@@ -2,7 +2,7 @@
   "extra": {
     "fr": "Supplément: crème Chantilly, chocolat, coco râpée, caramel beurre salé, amandes effilées: 2,00 €<br/> Supplément alcool: 3,00 €",
     "en": "Extra: whipped cream or hot chocolate or salted butter caramel or almond flakes or grated coconut : 2,00 €<br/> Extra alcohol: 3,00 €",
-    "it": ""
+    "it": "Supplemento: panna montata, cioccolato nero, caramello al burro salato, noce di coco grattugiata, scaglie di mandorle: 2,00 €<br> Supplemento alcool: 3,00 €"
   },
   "home": {
     "title": {
@@ -22,42 +22,43 @@
       "title": {
         "fr": "Apéro / Brasserie",
         "en": "Apero / Brasserie",
-        "it": ""
+        "it": "Apero / Brasserie"
       }
     },
     {
       "title": {
         "fr": "Galettes",
         "en": "Savoury Crepes",
-        "it": ""
+        "it": "Galette"
       }
     },
     {
       "title": {
         "fr": "Crêpes",
         "en": "Sweet Crepes",
-        "it": ""
+        "it": "Crepe"
       }
     },
     {
       "title": {
         "fr": "Boissons",
         "en": "Drinks",
-        "it": ""
+        "it": "Bevande"
       }
     },
     {
       "title": {
         "fr": "Desserts",
         "en": "Desserts",
-        "it": ""
+        "it": "Dolci"
       }
     }
   ],
   "footer": {
     "title": {
       "fr": "L’abus d’alcool est dangereux pour la santé, à consommer avec modération.<br> Prix nets en euros, service compris - La maison n’accepte plus les chèques",
-      "en": "Making too free a use of alcohol can be detrimental to your health. To be temperately consumed. <br> All net prices - Means of payment: cash, card - cheques not accepted"
+      "en": "Making too free a use of alcohol can be detrimental to your health. To be temperately consumed. <br> All net prices - Means of payment: cash, card - cheques not accepted",
+      "it": "L’eccesso d’alcool è pericoloso per la salute <br> Prezzi in euro, servizio compreso - non accettiamo chèque"
     }
   }
 }

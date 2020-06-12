@@ -39,10 +39,18 @@ body {
   margin: 0;
   //font-family: 'Courier New', Courier, monospace;
   font-family: $ff-serif;
+  background-color: white;
+  // &.en {
+  //   background-color: $en-bg;
+  // }
+  // &.it {
+  //   background-color: $it-bg;
+  // }
+
   
-  &.en {
-    background-color: $en-bg;
-  }
+}
+:root {
+  --color: $body-bg;
 }
 
 

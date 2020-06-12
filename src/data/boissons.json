@@ -5,7 +5,7 @@
       "title": {
         "fr": "Verre 12cl",
         "en": "Glass 12cl",
-        "it": ""
+        "it": "12cl"
       }
     },
     "18cl": {
@@ -13,7 +13,7 @@
       "title": {
         "fr": "Bolée 18cl",
         "en": "Bowl 18cl",
-        "it": ""
+        "it": "Ciotola 18cl"
       }
     },
     "50cl": {
@@ -21,7 +21,7 @@
       "title": {
         "fr": "Carafe 50cl",
         "en": "Pitcher 50cl",
-        "it": ""
+        "it": "Caraffa 50cl"
       }
     },
     "75cl": {
@@ -29,7 +29,7 @@
       "title": {
         "fr": "Bout. 75cl",
         "en": "Bottle 75cl",
-        "it": ""
+        "it": "Brocca 75cl"
       }
     }
   },
@@ -39,7 +39,7 @@
       "title": {
         "fr": "Cidres",
         "en": "Cider",
-        "it": ""
+        "it": "Sidri"
       },
       "types": ["18cl", "50cl", "75cl"],
       "products": [
@@ -47,7 +47,7 @@
           "title": {
             "fr": "Brut",
             "en": "Dry",
-            "it": ""
+            "it": "Secco"
           },
           "description": {
             "fr": "Cru Breton Val de Rance",
@@ -64,7 +64,7 @@
           "title": {
             "fr": "Doux",
             "en": "Sweet",
-            "it": ""
+            "it": "Dolce"
           },
           "description": {
             "fr": "Artisanal Maison Sorre",
@@ -83,7 +83,7 @@
           "title": {
             "fr": "Fermier",
             "en": "Farm produced",
-            "it": ""
+            "it": "Di fattoria"
           },
           "description": {
             "fr": "Château de Lézergué",
@@ -104,7 +104,7 @@
       "title": {
         "fr": "Vin Rosé de Provence",
         "en": "Rosé Wine Côtes de Provence",
-        "it": ""
+        "it": "Vini Rosé Côtes de Provence"
       },
       "types": ["12cl", "50cl", "75cl"],
       "products": [
@@ -168,7 +168,7 @@
       "title": {
         "fr": "Vin Blanc",
         "en": "White Wine",
-        "it": ""
+        "it": "Vini Bianchi"
       },
       "types": ["12cl", "50cl", "75cl"],
       "products": [
@@ -235,7 +235,7 @@
       "title": {
         "fr": "Vin Rouge",
         "en": "Red Wine",
-        "it": ""
+        "it": "Vini Rossi"
       },
       "types": ["12cl", "50cl", "75cl"],
       "products": [
@@ -302,7 +302,7 @@
       "title": {
         "fr": "Boissons sans alcool",
         "en": "Soft Drink and Water",
-        "it": ""
+        "it": "Bibite"
       },
       "types": [],
 
@@ -311,12 +311,12 @@
           "title": {
             "fr": "Jus de fruit (25cl)",
             "en": "Fruit juice (25cl)",
-            "it": ""
+            "it": "Succhi di frutta"
           },
           "description": {
             "fr": "Orange, Pomme, Ananas, Tomate, Abricot, A.C.E",
             "en": "Orange, Apple, Pineapple, Tomato, Apricot, A.C.E vitamin",
-            "it": ""
+            "it": "Arancia, Mela, Ananas, Pomodoro, Albicocca"
           },
           "price": 3.8
         },
@@ -324,23 +324,23 @@
           "title": {
             "fr": "Fruits pressés maison",
             "en": "Freshly squeezed fruit",
-            "it": ""
+            "it": "Spremute"
           },
           "description": {
             "fr": "Orange, Citron, Pamplemousse",
             "en": "Orange, Lemon, Grapefruit",
-            "it": ""
+            "it": "Arancia, Limone, Pompelmo"
           },
           "price": 5
         },
         {
           "title": {
-            "fr": "Fruits pressés maison",
+            "fr": "Tutti frutti",
             "en": "",
             "it": ""
           },
           "description": {
-            "fr": "Tutti frutti",
+            "fr": "",
             "en": "",
             "it": ""
           },
@@ -350,12 +350,12 @@
           "title": {
             "fr": "Smoothie Milkshake",
             "en": "Smoothie or Milshake",
-            "it": ""
+            "it": "Smoothie Milkchake"
           },
           "description": {
             "fr": "fruit de la passion, mangue, fraise, mûre, fibre saine",
             "en": "passion fruit, mango, strawberry, blackberry, healthy fiber",
-            "it": ""
+            "it": "frutto della passione, mango, fragola, mora, fibra sana"
           },
           "price": 7.5
         },
@@ -363,23 +363,21 @@
           "title": {
             "fr": "Café frappé maison",
             "en": "Iced coffee-shaken and almond syrup",
-            "it": ""
+            "it": "Caffè freddo orzata della casa"
           },
           "description": {},
-          "price": 4.5,
-          "en": "",
-          "it": ""
+          "price": 4.5
         },
         {
           "title": {
             "fr": "Sodas",
             "en": "Soft drink",
-            "it": ""
+            "it": "Bevande (bottiglia)"
           },
           "description": {
             "fr": "Coca-cola 33cl, Coca-cola zéro 33cl, Orangina 25cl, Limonade 25cl, Schweppes Tonic 25cl, Ice-Tea pêche 25cl, Diabolo 25cl, Perrier 33cl",
             "en": "Coca-cola 33cl, Coca-cola zéro 33cl, Orangina 25cl, Sprite 25cl, Schweppes Tonic 25cl, Peach Ice-Tea 25cl, Diabolo 25cl, Perrier 33cl",
-            "it": ""
+            "it": "Coca-cola 33cl, Coca-cola zéro 33cl, Orangina 25cl, Limonata 25cl, Schweppes Tonic 25cl, Ice-Tea pesca 25cl, Diabolo 25cl, Perrier 33cl "
           },
           "price": 3.9
         },
@@ -387,7 +385,7 @@
           "title": {
             "fr": "Eaux minérales (50cl)",
             "en": "Water (50cl)",
-            "it": ""
+            "it": "Acque Minerali"
           },
           "description": {
             "fr": "San Pellegrino, Vittel ",
@@ -400,12 +398,12 @@
           "title": {
             "fr": "Thé glacé maison",
             "en": "Home-made fruit iced tea",
-            "it": ""
+            "it": "Tè freddo alla frutta della casa"
           },
           "description": {
             "fr": "menthe, citron, fruits exotiques, fraise-rhubarbe",
             "en": "(Mint, Lemon, Exotic fruits, Strawberry-Rhubarb)",
-            "it": ""
+            "it": "(Menta, Limone, Frutta esotica, Fragola-Rhubarbe)"
           },
           "price": 4.5
         }

@@ -2,12 +2,12 @@
   "title": {
     "fr": "Glaces artisanales",
     "en": "Artisanal ice cream",
-    "it": ""
+    "it": "Gelati Artigianali"
   },
   "description": {
     "fr": "Vanille, Chocolat, Tiramisu, Caramel beurre salé, Yaourt nature, Pistache, Menthe-chocolat, Fraise, Citron vert, Noix de coco, Fruit de la passion",
     "en": "Vanilla, Chocolate, Tiramisu, Salted butter caramel, Fresh yoghurt, Pistachio, Mint-chocolate, Strawberry, Lime, Coconut, Passion fruit",
-    "it": ""
+    "it": "Vaniglia, Cioccolato, Tiramisu, Caramello al burro salato, Yogurt, Pistache, Menta-Cioccolato, Fragola, Limone verde, Noce di cocco, frutto della passione"
   },
 
   "products": [
@@ -15,7 +15,7 @@
       "title": {
         "fr": "2 boules",
         "en": "2 scoops",
-        "it": ""
+        "it": "2 gusti"
       },
       "description": {
         "fr": ""
@@ -26,7 +26,7 @@
       "title": {
         "fr": "3 boules",
         "en": "3 scoops",
-        "it": ""
+        "it": "3 gusti"
       },
       "description": {
         "fr": ""

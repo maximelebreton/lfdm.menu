@@ -8,12 +8,25 @@
   
   //margin: calc(-1rem - 1px);
   border-bottom: 1px solid $text-color;
+  body.fr & {
+    border-color: $fr-bg;
+  }
+  body.en & {
+    border-color: $en-bg;
+  }
+  body.it & {
+    border-color: $it-bg;
+  }
   position: relative;
   // margin-left: -1px;
   // margin-right: -1px;
+  background-color: white;
   background-color: $body-bg;
   body.en & {
     background-color: $en-bg;
+  }
+  body.it & {
+    background-color: $it-bg;
   }  
   &::-webkit-scrollbar {
     // display: none;
@@ -25,20 +38,24 @@
   
 }
 .tabs-container {
-  padding-bottom: 2rem;
-
+  padding-top: 2rem;
+order: 3;
   position: sticky;
-top: 0;
+bottom: 0;
 z-index: 10;
 &::after {
   content: "";
   position:absolute;
-  top: calc(100% - 2rem);left: 0;right: 0;
+  bottom: calc(100% - 2rem);left: 0;right: 0;
   height: 2rem;
-  background: linear-gradient(to bottom, $body-bg, rgba($body-bg, 0));
-  body.en & {
-    background: linear-gradient(to bottom, $en-bg, rgba($body-bg, 0));
-  }
+  background: linear-gradient(to top, white, rgba(white, 0));
+  // background: linear-gradient(to bottom, $body-bg, rgba($body-bg, 0));
+  // body.en & {
+  //   background: linear-gradient(to bottom, $en-bg, rgba($en-bg, 0));
+  // }
+  // body.it & {
+  //   background: linear-gradient(to bottom, $it-bg, rgba($it-bg, 0));
+  // }
 }
   
   // &::after {
@@ -54,6 +71,15 @@ z-index: 10;
 .tab {
   flex-grow: 1;
   border: 1px solid $text-color;
+  body.fr & {
+    border-color: $fr-bg;
+  }
+  body.en & {
+    border-color: $en-bg;
+  }
+  body.it & {
+    border-color: $it-bg;
+  }
   border-bottom: none;
   padding: 1rem .5rem;
   background: transparent;
@@ -85,6 +111,15 @@ z-index: 10;
   }
 }
 .tab.active {
-  background-color: $text-color;
-  color: white;
+  background-color: $dark;
+  body.fr & {
+    background-color: $fr-bg;
+  }
+  body.en & {
+    background-color: $en-bg;
+  }
+  body.it & {
+    background-color: $it-bg;
+  }
+  color: $dark;
 }

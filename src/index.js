@@ -14,7 +14,7 @@ import "flickity/dist/flickity.min.css";
 import "google-maps-reviews/google-maps-reviews.css";
 // import { tns } from "tiny-slider/src/tiny-slider";
 
-const getDefaultLang = function() {
+const getDefaultLang = function () {
   const lang =
     window.navigator.userLanguage || window.navigator.language || "fr";
   let shortLang = lang;
@@ -22,7 +22,7 @@ const getDefaultLang = function() {
     shortLang = shortLang.split("-")[0];
   }
 
-  return ["fr", "en"].includes(shortLang) ? shortLang : "fr";
+  return ["fr", "en", "it"].includes(shortLang) ? shortLang : "fr";
   //return "fr";
 };
 
@@ -60,6 +60,8 @@ window.data = () => ({
     this.selectedTab = value;
     if (window.scrollY) {
       window.scroll(0, 0); // reset the scroll position to the top left of the document.
+      // var c = document.getElementById("carousel");
+      // c.scrollIntoView();
     }
 
     this.carousel.select(value);
@@ -87,7 +89,7 @@ window.data = () => ({
       dragThreshold: 30
       //setGallerySize: false
     });
-    this.carousel.on("change", index => {
+    this.carousel.on("select", (index) => {
       this.selectTab(index);
 
       // const reviewsIndex = this.menu.common.tabs.findIndex(value => {

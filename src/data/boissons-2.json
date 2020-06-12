@@ -5,7 +5,7 @@
       "title": {
         "fr": "Bières pression",
         "en": "Draught Beer",
-        "it": ""
+        "it": "Birre alla spina"
       },
       "products": [
         {
@@ -25,7 +25,7 @@
           "title": {
             "fr": "Grimbergen de saison",
             "en": "Grimbergen seasonal beer",
-            "it": ""
+            "it": "Grimbergen birra di stagione"
           },
           "description": {
             "fr": "6°",
@@ -51,7 +51,7 @@
           "title": {
             "fr": "Picon bière",
             "en": "",
-            "it": ""
+            "it": "Picon birra"
           },
           "description": {
             "fr": "",
@@ -68,7 +68,7 @@
       "title": {
         "fr": "Bières bouteille",
         "en": "Bottle of Beer",
-        "it": ""
+        "it": "Birre in bottiglia"
       },
       "products": [
         {
@@ -80,7 +80,7 @@
           "description": {
             "fr": "33cl (bière sans alcool)",
             "en": "33cl (Beer without alcohol)",
-            "it": ""
+            "it": "33cl (Birra senza alcool)"
           },
           "price": 4.6
         },
@@ -114,7 +114,7 @@
           "title": {
             "fr": "Bière blonde bio du lubéron",
             "en": "Organic beer",
-            "it": ""
+            "it": "Birra biologico du lubéron"
           },
           "description": {
             "fr": "33cl",
@@ -131,7 +131,7 @@
       "title": {
         "fr": "Apéritifs",
         "en": "Aperitiv",
-        "it": ""
+        "it": "Aperitivi"
       },
       "products": [
         {
@@ -177,7 +177,7 @@
           "title": {
             "fr": "Campari, Martini rouge ou blanc",
             "en": "Campari, Martini red or white",
-            "it": ""
+            "it": "Campari, Martini rosso o bianco"
           },
           "description": {
             "fr": "4cl",
@@ -207,7 +207,7 @@
       "title": {
         "fr": "Digestifs",
         "en": "Digestive",
-        "it": ""
+        "it": "Digestivi"
       },
       "products": [
         {
@@ -283,7 +283,7 @@
       "title": {
         "fr": "Boissons chaudes",
         "en": "Hot Drink",
-        "it": ""
+        "it": "Bevande calde"
       },
       "products": [
         {
@@ -303,7 +303,7 @@
           "title": {
             "fr": "Café américain",
             "en": "Caffè américano",
-            "it": ""
+            "it": "Caffè Americano (lungo)"
           },
           "description": {
             "fr": "",
@@ -316,7 +316,7 @@
           "title": {
             "fr": "Chocolat",
             "en": "Hot chocolate",
-            "it": ""
+            "it": "Cioccolata"
           },
           "description": {
             "fr": "",
@@ -342,7 +342,7 @@
           "title": {
             "fr": "Noisette",
             "en": "Macchiato",
-            "it": ""
+            "it": "Noisette (caffè macchiato)"
           },
           "description": {
             "fr": "",
@@ -368,7 +368,7 @@
           "title": {
             "fr": "Café ou chocolat viennois",
             "en": "Coffee or chocolat, whipped cream",
-            "it": ""
+            "it": "Caffè o Cioccolata alla Panna montata"
           },
           "description": {
             "fr": "",
@@ -381,7 +381,7 @@
           "title": {
             "fr": "Café crème",
             "en": "Caffè latte",
-            "it": ""
+            "it": "Caffè Latte"
           },
           "description": {
             "fr": "",

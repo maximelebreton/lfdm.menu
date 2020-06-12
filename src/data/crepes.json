@@ -2,19 +2,19 @@
   "title": {
     "fr": "Crêpes Sucrées",
     "en": "Sweet Crepes",
-    "it": ""
+    "it": "Crepe Dolci"
   },
   "description": {
     "fr": "Farine de Froment BIO (IGP de Bretagne) - Œuf bio",
     "en": "Organic wheat flour - IGP de Bretagne - Organic egg",
-    "it": ""
+    "it": "Farina di frumento biologico - Uovo biologico"
   },
   "products": [
     {
       "title": {
         "fr": "Beurre demi-sel, sucre",
         "en": "Salt butter and sugar",
-        "it": ""
+        "it": "Burro salato, zucchero"
       },
       "description": {
         "fr": "",
@@ -27,12 +27,12 @@
       "title": {
         "fr": "Confiture",
         "en": "Jam",
-        "it": ""
+        "it": "Marmellata"
       },
       "description": {
         "fr": "(rhubarbe, framboise, fraise, orange amère, abricot)",
         "en": "(rhubarb, raspberry, strawberry, bitter orange, apricot)",
-        "it": ""
+        "it": "(rabarbaro, lampone, fragola, arancia, albicocca)"
       },
       "price": 5
     },
@@ -40,7 +40,7 @@
       "title": {
         "fr": "Miel",
         "en": "Honey",
-        "it": ""
+        "it": "Miele"
       },
       "description": {
         "fr": "",
@@ -66,7 +66,7 @@
       "title": {
         "fr": "Crème de marron",
         "en": "Chestnut cream",
-        "it": ""
+        "it": "Crema di marroni"
       },
       "description": {
         "fr": "",
@@ -79,7 +79,7 @@
       "title": {
         "fr": "Sirop d'érable",
         "en": "Maple syrup",
-        "it": ""
+        "it": "Sciroppo d’acero"
       },
       "description": {
         "fr": "",
@@ -92,7 +92,7 @@
       "title": {
         "fr": "Caramel beurre salé maison",
         "en": "Salted butter caramel (Homemade)",
-        "it": ""
+        "it": "Caramello al burro salato della casa"
       },
       "description": {
         "fr": "",
@@ -105,7 +105,7 @@
       "title": {
         "fr": "Jus de citron, sucre",
         "en": "Lemon Juice, sugar",
-        "it": ""
+        "it": "Succo di limone, zucchero"
       },
       "description": {
         "fr": "",
@@ -118,7 +118,7 @@
       "title": {
         "fr": "Chocolat noir maison",
         "en": "Hot chocolat (Homemade)",
-        "it": ""
+        "it": "Cioccolato nero della casa"
       },
       "description": {
         "fr": "",
@@ -131,7 +131,7 @@
       "title": {
         "fr": "Caramel beurre Salé au gingembre frais",
         "en": "Salted butter caramel with fresh ginger (Homemade)",
-        "it": ""
+        "it": "Caramello al burro salato allo zenzero"
       },
       "description": {
         "fr": "",
@@ -144,7 +144,7 @@
       "title": {
         "fr": "Chocolat noir maison, confiture d’orange amère",
         "en": "Hot chocolat (Homemade), bitter orange jam",
-        "it": ""
+        "it": "Cioccolato nero fondente, marmellata di arancia amare"
       },
       "description": {
         "fr": "",
@@ -157,7 +157,7 @@
       "title": {
         "fr": "Glace menthe-chocolat, chocolat noir maison, noix de coco râpée et crème Chantilly",
         "en": "Mint and chocolate ice cream, hot chocolate, grated coconut and whipped cream",
-        "it": ""
+        "it": "Gelato menta-cioccolato, cioccolato nero, noce di cocco grattugiata, panna montata"
       },
       "description": {
         "fr": "",
@@ -170,7 +170,7 @@
       "title": {
         "fr": "Banane, crème Chantilly, chocolat ou nutella ou caramel beurre salé",
         "en": "Banana, whipped cream, chocolate or salted butter caramel or nutella",
-        "it": ""
+        "it": "Banana, panna montata, cioccolato nero o nutella o caramello al burro salato"
       },
       "description": {
         "fr": "",
@@ -183,7 +183,7 @@
       "title": {
         "fr": "Poire caramélisée, émietté de spéculoos, glace vanille",
         "en": "Caramelised pears, biscuit crumbs, vanilla ice cream",
-        "it": ""
+        "it": "Pere caramellizzate, schegge di Speculos, gelato alla vaniglia"
       },
       "description": {
         "fr": "",
@@ -196,7 +196,7 @@
       "title": {
         "fr": "Pomme Tatin flambée au Calvados, glace vanille",
         "en": "Apple flamed with Calvados, vanilla ice cream",
-        "it": ""
+        "it": "Tatin (mela) flambée al Calvados, gelato alla vaniglia"
       },
       "description": {
         "fr": "",

@@ -1,17 +1,20 @@
 {
   "title": {
     "fr": "Apéro Mico-Roll’s",
-    "en": "Mico-Roll’s Savoury Crepes"
+    "en": "Mico-Roll’s Savoury Crepes",
+    "it": "Galette Mico-Roll’s"
   },
   "description": {
     "fr": "Farine de Sarrasin sans gluten Bio - IGP de Bretagne - Oeuf bio",
-    "en": "Organic buckwheat flour - Gluten free - Organic egg"
+    "en": "Organic buckwheat flour - Gluten free - Organic egg",
+    "it": "Farina di grano saraceno biologico, senza glutine - Uovo biologico"
   },
   "products": [
     {
       "title": {
         "fr": "Jambon blanc, œuf, emmental, crème ciboulette",
-        "en": "Ham, egg, emmental cheese, chives cream"
+        "en": "Ham, egg, emmental cheese, chives cream",
+        "it": "Prosciutto, uovo, emmental, crema allé erba cipollina"
       },
       "description": {
         "fr": "",
@@ -23,7 +26,8 @@
     {
       "title": {
         "fr": "Chorizo, œuf, emmental",
-        "en": "Chorizo, emmental cheese, egg"
+        "en": "Chorizo, emmental cheese, egg",
+        "it": "Chorizo, uovo, emmental"
       },
       "description": {
         "fr": "",
@@ -35,7 +39,8 @@
     {
       "title": {
         "fr": "Fromage de chèvre, jambon blanc, œuf, confit d’oignons au cidre",
-        "en": "Goat cheese, ham, cider onion confit, egg"
+        "en": "Goat cheese, ham, cider onion confit, egg",
+        "it": "Prosciutto, uovo, formaggio di capra, cipolla confit al sidro"
       },
       "description": {
         "fr": "",
@@ -47,7 +52,8 @@
     {
       "title": {
         "fr": "Saumon fumé, œuf, crème ciboulette citronnée",
-        "en": "Smoked salmon, egg, lemon chives cream"
+        "en": "Smoked salmon, egg, lemon chives cream",
+        "it": "Salmone affumicato, uovo, crema erba cipollina e uova di salmone"
       },
       "description": {
         "fr": "",

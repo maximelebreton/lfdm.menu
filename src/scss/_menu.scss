@@ -39,13 +39,22 @@
   //border: 1px solid blue;
   font-weight: bold;
   background-color: #222;
-  color: white;
+  color: $dark;
   padding: .25em .5em;
   display: inline-flex;
   text-align: center;
   margin: 0 auto;
   display: inline-flex;
   margin-bottom: 1rem;
+  body.fr & {
+    background-color: $fr-bg;
+  }
+  body.en & {
+    background-color: $en-bg;
+  }
+  body.it & {
+    background-color: $it-bg;
+  }
 }
 .category-description {
   font-size: 75%;

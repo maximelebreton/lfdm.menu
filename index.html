@@ -47,7 +47,7 @@
             <button id="tab4" class="tab" :class="{ 'active': selectedTab === 4 }" x-on:click="selectTab(4);">Desserts</button> -->
          </div>
       </div>
-      <div class="carousel">
+      <div id="carousel" class="carousel">
       <div class="carousel-cell carousel-cell--center">
          <div class="home">
          <img src="src/img/logo.svg" width="128" height="128" class="logo" />
@@ -63,7 +63,9 @@
             <button class="lang" :class="{ 'active': lang === 'en' }" x-on:click="selectLang('en')">
                <img src="src/img/united-kingdom.svg" width="24" height="24" />
             </button>
-            <!-- <button class="lang" :class="{ 'active': lang === 'it' }" x-on:click="selectLang('it')">it</button> -->
+            <button class="lang" :class="{ 'active': lang === 'it' }" x-on:click="selectLang('it')">
+               <img src="src/img/italy.svg" width="24" height="24" />
+            </button>
             </div>
             <!-- <img class="icon" height="24" width="24" src="src/img/facebook.svg" /> -->
             

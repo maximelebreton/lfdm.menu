@@ -2,12 +2,12 @@
   "title": {
     "fr": "Galettes gourmandes",
     "en": "Savoury Crepes",
-    "it": ""
+    "it": "Galette Golose"
   },
   "description": {
     "fr": "Farine de Sarrasin sans gluten Bio - IGP de Bretagne - Oeuf bio",
     "en": "Organic buckwheat flour - Gluten free - Organic egg",
-    "it": ""
+    "it": "Farina di grano saraceno biologico, senza glutine - Uovo biologico"
   },
   "products": [
     {
@@ -19,7 +19,7 @@
       "description": {
         "fr": "Œuf au plat, poêlée d’épinards",
         "en": "Pan-fried egg, spinach",
-        "it": ""
+        "it": "Uova fritte, spinaci"
       },
       "price": 10.5
     },
@@ -32,7 +32,7 @@
       "description": {
         "fr": "Jambon, œuf, emmental",
         "en": "Ham, egg, emmental cheese",
-        "it": ""
+        "it": "Prosciutto, uovo, emmental"
       },
       "price": 12
     },
@@ -45,7 +45,7 @@
       "description": {
         "fr": "4 fromages (emmental, chèvre, mozzarella di bufala, Bleu d’Auvergne)",
         "en": "4 cheese (emmental, goat cheese, mozzarella di bufala, Auvergne Blue cheese)",
-        "it": ""
+        "it": "Quattro formaggi (emmental, di capora, mozzarella di bufala, formaggio « Bleu d’Auvergne »)"
       },
       "price": 12.5
     },
@@ -58,7 +58,7 @@
       "description": {
         "fr": "Poitrine de porc, emmental, œuf, pommes de terre sautées",
         "en": "Bacon, emmental chesse, egg, potatoes",
-        "it": ""
+        "it": "Ventresca, emmental, uovo, patate fritte"
       },
       "price": 12.5
     },
@@ -71,7 +71,7 @@
       "description": {
         "fr": "Chorizo, œuf, emmental, piment doux du pays basque",
         "en": "Chorizo, egg, emmental chesse, green sweet pepper",
-        "it": ""
+        "it": "Chorizo, uovo, emmental, peperone verde dolce"
       },
       "price": 12.5
     },
@@ -84,7 +84,7 @@
       "description": {
         "fr": "Poulet à la crème fraîche, champignons, emmental",
         "en": "Chicken, mushrooms, emmental cheese, fresh cream",
-        "it": ""
+        "it": "Pollo, funghi, emmental, panna"
       },
       "price": 13
     },
@@ -97,7 +97,7 @@
       "description": {
         "fr": "Jambon fumé, tomates confites, mozzarella di bufala, pesto maison",
         "en": "Country ham, dried tomatoes, mozzarella di bufala, pesto",
-        "it": ""
+        "it": "Prosciutto affumicato, pomodorini ciliegia o secchi, mozzarella di Bufala, pesto"
       },
       "price": 13.5
     },
@@ -110,7 +110,7 @@
       "description": {
         "fr": "Magret de canard fumé, champignons, emmental, crème ciboulette",
         "en": "Smoked duck breast, mushrooms, emmental cheese, chives cream",
-        "it": ""
+        "it": "Petto d’anatra affumicato, funghi, emmental, crema all’erba cipollina"
       },
       "price": 13.5
     },
@@ -123,7 +123,7 @@
       "description": {
         "fr": "Légumes de saison, chèvre, miel, piment d’Espelette",
         "en": "Seasonal vegetables, goat cheese, honey, Espelette chilli pepper",
-        "it": ""
+        "it": "Verdurine di stagione, formaggio di capra, miele, peperoncino d’Espelette"
       },
       "price": 13.5
     },
@@ -136,7 +136,7 @@
       "description": {
         "fr": "Fondue de poireaux à la crème, œuf, fromage bleu d’Auvergne",
         "en": "Creamed leeks, egg, Auvergne blue chesse",
-        "it": ""
+        "it": "Fonduta di porri alla panna, uovo, formaggio « Bleu d’Auvergne »"
       },
       "price": 13.5
     },
@@ -149,7 +149,7 @@
       "description": {
         "fr": "Crevettes sauce saté et lait de coco, poêlée de légumes",
         "en": "Prawns, coconut sate sauce, vegetables",
-        "it": ""
+        "it": "Gamberetti salsa saté e latte di cocco, verdure di stagione"
       },
       "price": 14.5
     },
@@ -162,7 +162,7 @@
       "description": {
         "fr": "Saumon fumé, chèvre, crème ciboulette citronnée",
         "en": "Smoked salmon, goat cheese, lemon chived cream",
-        "it": ""
+        "it": "Salmone affumicato al limone, formaggio di capra, crema all’erba cipollina e uova di salmone"
       },
       "price": 14.5
     }
