@@ -7,7 +7,8 @@
   overflow-x: auto;
   
   //margin: calc(-1rem - 1px);
-  border-bottom: 1px solid $text-color;
+  //border-bottom: 1px solid $text-color;
+  border: none;
   body.fr & {
     border-color: $fr-bg;
   }
@@ -70,7 +71,8 @@ z-index: 10;
 }
 .tab {
   flex-grow: 1;
-  border: 1px solid $text-color;
+  border: none;
+  //border: 1px solid $text-color;
   body.fr & {
     border-color: $fr-bg;
   }
