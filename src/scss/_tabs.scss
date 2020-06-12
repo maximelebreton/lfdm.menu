@@ -112,14 +112,14 @@ z-index: 10;
 }
 .tab.active {
   background-color: $dark;
-  body.fr & {
-    background-color: $fr-bg;
-  }
-  body.en & {
-    background-color: $en-bg;
-  }
-  body.it & {
-    background-color: $it-bg;
-  }
-  color: $dark;
+  // body.fr & {
+  //   background-color: $fr-bg;
+  // }
+  // body.en & {
+  //   background-color: $en-bg;
+  // }
+  // body.it & {
+  //   background-color: $it-bg;
+  // }
+  color: white;
 }
