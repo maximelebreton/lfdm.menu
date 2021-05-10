@@ -55,9 +55,9 @@
             "it": ""
           },
           "prices": {
-            "18cl": 3.6,
-            "50cl": 7.9,
-            "75cl": 10.9
+            "18cl": 3.9,
+            "50cl": 9,
+            "75cl": 12
           }
         },
         {
@@ -74,9 +74,9 @@
           "en": {},
           "it": {},
           "prices": {
-            "18cl": 3.6,
-            "50cl": 7.9,
-            "75cl": 10.9
+            "18cl": 3.9,
+            "50cl": 9,
+            "75cl": 12
           }
         },
         {
@@ -91,9 +91,9 @@
             "it": ""
           },
           "prices": {
-            "18cl": 3.9,
-            "50cl": 8.9,
-            "75cl": 12.9
+            "18cl": 4.5,
+            "50cl": 10,
+            "75cl": 14
           }
         }
       ]
@@ -121,8 +121,8 @@
           },
 
           "prices": {
-            "12cl": 4.9,
-            "50cl": 16
+            "12cl": 5,
+            "50cl": 17
           }
         },
         {
@@ -205,8 +205,8 @@
           "en": {},
           "it": {},
           "prices": {
-            "12cl": 5.5,
-            "75cl": 23.5
+            "12cl": 6,
+            "75cl": 24.5
           }
         },
         {
@@ -223,8 +223,8 @@
           "en": {},
           "it": {},
           "prices": {
-            "12cl": 5.5,
-            "75cl": 23.5
+            "12cl": 6,
+            "75cl": 24.5
           }
         }
       ]
@@ -272,8 +272,8 @@
           "en": {},
           "it": {},
           "prices": {
-            "12cl": 6,
-            "75cl": 26.5
+            "12cl": 6.5,
+            "75cl": 27.5
           }
         },
         {
@@ -290,8 +290,8 @@
           "en": {},
           "it": {},
           "prices": {
-            "12cl": 6,
-            "75cl": 26.5
+            "12cl": 6.5,
+            "75cl": 27.5
           }
         }
       ]
@@ -318,7 +318,7 @@
             "en": "Orange, Apple, Pineapple, Tomato, Apricot, A.C.E vitamin",
             "it": "Arancia, Mela, Ananas, Pomodoro, Albicocca"
           },
-          "price": 3.8
+          "price": 3.9
         },
         {
           "title": {
@@ -331,7 +331,7 @@
             "en": "Orange, Lemon, Grapefruit",
             "it": "Arancia, Limone, Pompelmo"
           },
-          "price": 5
+          "price": 5.5
         },
         {
           "title": {
@@ -344,7 +344,7 @@
             "en": "",
             "it": ""
           },
-          "price": 6
+          "price": 7
         },
         {
           "title": {
@@ -357,7 +357,7 @@
             "en": "passion fruit, mango, strawberry, blackberry, healthy fiber",
             "it": "frutto della passione, mango, fragola, mora, fibra sana"
           },
-          "price": 7.5
+          "price": 8.5
         },
         {
           "title": {
@@ -366,7 +366,7 @@
             "it": "Caffè freddo orzata della casa"
           },
           "description": {},
-          "price": 4.5
+          "price": 5
         },
         {
           "title": {
