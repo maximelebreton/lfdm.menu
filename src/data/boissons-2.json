@@ -274,6 +274,19 @@
             "it": ""
           },
           "price": 9
+        },
+        {
+          "title": {
+            "fr": "Rhum mauricien Emperor",
+            "en": "",
+            "it": ""
+          },
+          "description": {
+            "fr": "4cl",
+            "en": "",
+            "it": ""
+          },
+          "price": 11
         }
       ]
     },
