@@ -51,6 +51,19 @@
     },
     {
       "title": {
+        "fr": "Salade de tomates anciennes et burrata des Pouilles",
+        "en": "Tomatoes salad and Apulian buratta",
+        "it": "Insalata pomodori e burrata di Puglia"
+      },
+      "description": {
+        "fr": "",
+        "en": "",
+        "it": ""
+      },
+      "price": 16
+    },
+    {
+      "title": {
         "fr": "Salade de saumon fumé, tomate, vinaigrette, crème ciboulette citronnée",
         "en": "Smoked salmon, tomato, fresh cream, salad, buckwheat blinis",
         "it": "Salmone affumicato, pomodoro, panna, insalata, blini di grano Saraceno"
