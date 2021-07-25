@@ -348,14 +348,14 @@
         },
         {
           "title": {
-            "fr": "Smoothie Milkshake",
-            "en": "Smoothie or Milshake",
-            "it": "Smoothie Milkchake"
+            "fr": "Smoothie et Milkshake du jour",
+            "en": "Today's special Smoothie and milkshake",
+            "it": "Smoothie é milkshake del giorno"
           },
           "description": {
-            "fr": "fruit de la passion, mangue, fraise, mûre, fibre saine",
-            "en": "passion fruit, mango, strawberry, blackberry, healthy fiber",
-            "it": "frutto della passione, mango, fragola, mora, fibra sana"
+            "fr": "",
+            "en": "",
+            "it": ""
           },
           "price": 8.5
         },
