@@ -19,7 +19,7 @@
             "en": "",
             "it": ""
           },
-          "price": 3.9
+          "price": 4.2
         },
         {
           "title": {
@@ -32,7 +32,7 @@
             "en": "",
             "it": ""
           },
-          "price": 4.2
+          "price": 4.5
         },
         {
           "title": {
@@ -45,7 +45,7 @@
             "en": "",
             "it": ""
           },
-          "price": 3.9
+          "price": 4.2
         },
         {
           "title": {
@@ -122,6 +122,45 @@
             "it": ""
           },
           "price": 4.9
+        },
+        {
+          "title": {
+            "fr": "Chimays",
+            "en": "",
+            "it": ""
+          },
+          "description": {
+            "fr": "",
+            "en": "",
+            "it": ""
+          },
+          "price": 6
+        },
+        {
+          "title": {
+            "fr": "Chouffe",
+            "en": "",
+            "it": ""
+          },
+          "description": {
+            "fr": "",
+            "en": "",
+            "it": ""
+          },
+          "price": 6
+        },
+        {
+          "title": {
+            "fr": "Delirium Tremens",
+            "en": "",
+            "it": ""
+          },
+          "description": {
+            "fr": "",
+            "en": "",
+            "it": ""
+          },
+          "price": 7
         }
       ]
     },
@@ -375,7 +414,7 @@
             "en": "",
             "it": ""
           },
-          "price": 3.9
+          "price": 4.2
         },
         {
           "title": {

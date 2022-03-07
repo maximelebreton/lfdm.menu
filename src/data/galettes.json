@@ -21,7 +21,7 @@
         "en": "Pan-fried egg, spinach",
         "it": "Uova fritte, spinaci"
       },
-      "price": 11
+      "price": 12
     },
     {
       "title": {
@@ -34,7 +34,7 @@
         "en": "Ham, egg, emmental cheese",
         "it": "Prosciutto, uovo, emmental"
       },
-      "price": 12.5
+      "price": 13
     },
     {
       "title": {
@@ -47,7 +47,7 @@
         "en": "4 cheese (emmental, goat cheese, mozzarella di bufala, Auvergne Blue cheese)",
         "it": "Quattro formaggi (emmental, di capora, mozzarella di bufala, formaggio « Bleu d’Auvergne »)"
       },
-      "price": 13
+      "price": 14
     },
     {
       "title": {
@@ -60,7 +60,7 @@
         "en": "Bacon, emmental chesse, egg, potatoes",
         "it": "Ventresca, emmental, uovo, patate fritte"
       },
-      "price": 13
+      "price": 14
     },
     {
       "title": {
@@ -73,7 +73,7 @@
         "en": "Chorizo, egg, emmental cheese, green sweet pepper",
         "it": "Chorizo, uovo, emmental, peperone verde dolce"
       },
-      "price": 13
+      "price": 14
     },
     {
       "title": {
@@ -86,7 +86,7 @@
         "en": "Chicken, mushrooms, emmental cheese, fresh cream",
         "it": "Pollo, funghi, emmental, panna"
       },
-      "price": 13
+      "price": 14
     },
     {
       "title": {
@@ -99,7 +99,7 @@
         "en": "Country ham, dried tomatoes, mozzarella di bufala, pesto",
         "it": "Prosciutto affumicato, pomodorini ciliegia o secchi, mozzarella di Bufala, pesto"
       },
-      "price": 14
+      "price": 15
     },
     {
       "title": {
@@ -112,7 +112,7 @@
         "en": "Smoked duck breast, mushrooms, emmental cheese, chives cream",
         "it": "Petto d’anatra affumicato, funghi, emmental, crema all’erba cipollina"
       },
-      "price": 14
+      "price": 15
     },
     {
       "title": {
@@ -125,7 +125,7 @@
         "en": "Seasonal vegetables, goat cheese, honey, Espelette chilli pepper",
         "it": "Verdurine di stagione, formaggio di capra, miele, peperoncino d’Espelette"
       },
-      "price": 14
+      "price": 15
     },
     {
       "title": {
@@ -138,7 +138,7 @@
         "en": "Creamed leeks, egg, Auvergne blue chesse",
         "it": "Fonduta di porri alla panna, uovo, formaggio « Bleu d’Auvergne »"
       },
-      "price": 14
+      "price": 15
     },
     {
       "title": {
@@ -151,7 +151,7 @@
         "en": "Prawns, coconut sate sauce, vegetables",
         "it": "Gamberetti salsa saté e latte di cocco, verdure di stagione"
       },
-      "price": 15
+      "price": 15.5
     },
     {
       "title": {
@@ -164,7 +164,7 @@
         "en": "Smoked salmon, goat cheese, lemon chived cream",
         "it": "Salmone affumicato al limone, formaggio di capra, crema all’erba cipollina e uova di salmone"
       },
-      "price": 15
+      "price": 16
     }
   ]
 }

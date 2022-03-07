@@ -55,9 +55,9 @@
             "it": ""
           },
           "prices": {
-            "18cl": 3.9,
-            "50cl": 9,
-            "75cl": 12
+            "18cl": 4.5,
+            "50cl": 12,
+            "75cl": 15
           }
         },
         {
@@ -74,9 +74,9 @@
           "en": {},
           "it": {},
           "prices": {
-            "18cl": 3.9,
-            "50cl": 9,
-            "75cl": 12
+            "18cl": 4.5,
+            "50cl": 12,
+            "75cl": 15
           }
         },
         {
@@ -91,9 +91,9 @@
             "it": ""
           },
           "prices": {
-            "18cl": 4.5,
-            "50cl": 10,
-            "75cl": 14
+            "18cl": 4.9,
+            "50cl": 13,
+            "75cl": 16
           }
         }
       ]
@@ -121,8 +121,8 @@
           },
 
           "prices": {
-            "12cl": 5,
-            "50cl": 17
+            "12cl": 5.5,
+            "50cl": 19
           }
         },
         {
@@ -139,8 +139,8 @@
           "en": {},
           "it": {},
           "prices": {
-            "12cl": 6,
-            "75cl": 29.5
+            "12cl": 6.5,
+            "75cl": 32.5
           }
         },
         {
@@ -186,9 +186,9 @@
           "en": {},
           "it": {},
           "prices": {
-            "12cl": 5,
-            "50cl": 16,
-            "75cl": 22.5
+            "12cl": 5.5,
+            "50cl": 18,
+            "75cl": 25
           }
         },
         {
@@ -205,8 +205,8 @@
           "en": {},
           "it": {},
           "prices": {
-            "12cl": 6,
-            "75cl": 24.5
+            "12cl": 6.5,
+            "75cl": 27.5
           }
         },
         {
@@ -223,8 +223,8 @@
           "en": {},
           "it": {},
           "prices": {
-            "12cl": 6,
-            "75cl": 24.5
+            "12cl": 6.5,
+            "75cl": 27.5
           }
         }
       ]
@@ -253,9 +253,9 @@
           "en": {},
           "it": {},
           "prices": {
-            "12cl": 5,
-            "50cl": 16,
-            "75cl": 22.5
+            "12cl": 5.5,
+            "50cl": 18,
+            "75cl": 25
           }
         },
         {
@@ -272,8 +272,8 @@
           "en": {},
           "it": {},
           "prices": {
-            "12cl": 6.5,
-            "75cl": 27.5
+            "12cl": 7,
+            "75cl": 29.5
           }
         },
         {
@@ -290,8 +290,8 @@
           "en": {},
           "it": {},
           "prices": {
-            "12cl": 6.5,
-            "75cl": 27.5
+            "12cl": 7,
+            "75cl": 29
           }
         }
       ]
@@ -331,7 +331,7 @@
             "en": "Orange, Lemon, Grapefruit",
             "it": "Arancia, Limone, Pompelmo"
           },
-          "price": 5.5
+          "price": 5.9
         },
         {
           "title": {
@@ -379,7 +379,7 @@
             "en": "Coca-cola 33cl, Coca-cola zéro 33cl, Orangina 25cl, Sprite 25cl, Schweppes Tonic 25cl, Peach Ice-Tea 25cl, Diabolo 25cl, Perrier 33cl",
             "it": "Coca-cola 33cl, Coca-cola zéro 33cl, Orangina 25cl, Limonata 25cl, Schweppes Tonic 25cl, Ice-Tea pesca 25cl, Diabolo 25cl, Perrier 33cl "
           },
-          "price": 3.9
+          "price": 4.2
         },
         {
           "title": {
