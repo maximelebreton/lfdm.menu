@@ -73,14 +73,14 @@
       "products": [
         {
           "title": {
-            "fr": "Buckler",
+            "fr": "1664 0%",
             "en": "",
             "it": ""
           },
           "description": {
-            "fr": "33cl (bière sans alcool)",
-            "en": "33cl (Beer without alcohol)",
-            "it": "33cl (Birra senza alcool)"
+            "fr": "",
+            "en": "",
+            "it": ""
           },
           "price": 4.6
         },
@@ -96,32 +96,6 @@
             "it": ""
           },
           "price": 5.5
-        },
-        {
-          "title": {
-            "fr": "Heineken",
-            "en": "",
-            "it": ""
-          },
-          "description": {
-            "fr": "33cl",
-            "en": "",
-            "it": ""
-          },
-          "price": 4.8
-        },
-        {
-          "title": {
-            "fr": "Bière blonde bio du lubéron",
-            "en": "Organic beer",
-            "it": "Birra biologico du lubéron"
-          },
-          "description": {
-            "fr": "33cl",
-            "en": "",
-            "it": ""
-          },
-          "price": 4.9
         },
         {
           "title": {
@@ -151,6 +125,19 @@
         },
         {
           "title": {
+            "fr": "Tripel karmeliet",
+            "en": "",
+            "it": ""
+          },
+          "description": {
+            "fr": "Bière bouteille",
+            "en": "Bottle",
+            "it": "Bottiglia"
+          },
+          "price": 6
+        },
+        {
+          "title": {
             "fr": "Delirium Tremens",
             "en": "",
             "it": ""
@@ -159,6 +146,19 @@
             "fr": "",
             "en": "",
             "it": ""
+          },
+          "price": 7
+        },
+        {
+          "title": {
+            "fr": "Paix dieux",
+            "en": "",
+            "it": ""
+          },
+          "description": {
+            "fr": "Bière bouteille",
+            "en": "Bottle",
+            "it": "Bottiglia"
           },
           "price": 7
         }
@@ -286,7 +286,20 @@
             "en": "",
             "it": ""
           },
-          "price": 3
+          "price": 5
+        },
+        {
+          "title": {
+            "fr": "Amaretto",
+            "en": "",
+            "it": ""
+          },
+          "description": {
+            "fr": "",
+            "en": "",
+            "it": ""
+          },
+          "price": 5
         },
         {
           "title": {
@@ -326,6 +339,45 @@
             "it": ""
           },
           "price": 11
+        },
+        {
+          "title": {
+            "fr": "Spritz lemon",
+            "en": "",
+            "it": ""
+          },
+          "description": {
+            "fr": "",
+            "en": "",
+            "it": ""
+          },
+          "price": 7.5
+        },
+        {
+          "title": {
+            "fr": "Spritz campari",
+            "en": "",
+            "it": ""
+          },
+          "description": {
+            "fr": "",
+            "en": "",
+            "it": ""
+          },
+          "price": 7.5
+        },
+        {
+          "title": {
+            "fr": "Spritz Saint Germain",
+            "en": "",
+            "it": ""
+          },
+          "description": {
+            "fr": "",
+            "en": "",
+            "it": ""
+          },
+          "price": 9.5
         }
       ]
     },
@@ -349,7 +401,7 @@
             "en": "",
             "it": ""
           },
-          "price": 1.9
+          "price": 1.8
         },
         {
           "title": {

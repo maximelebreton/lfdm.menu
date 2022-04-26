@@ -246,7 +246,7 @@
             "it": ""
           },
           "description": {
-            "fr": "AOP - Les Collines",
+            "fr": "Côtes du Rhône Camille Cayran III Le pas de la beaume",
             "en": "",
             "it": ""
           },
@@ -265,7 +265,7 @@
             "it": ""
           },
           "description": {
-            "fr": "AOP - Terre de mistral - Cuvée Zaello",
+            "fr": "La cuvée Irrésistible du domaine de La Croix III Cru classé - AOP",
             "en": "",
             "it": ""
           },
@@ -274,24 +274,6 @@
           "prices": {
             "12cl": 7,
             "75cl": 29.5
-          }
-        },
-        {
-          "title": {
-            "fr": "Bordeaux",
-            "en": "",
-            "it": ""
-          },
-          "description": {
-            "fr": "AOP - Château titleappe Peyrot - Elevé en fût de chêne",
-            "en": "",
-            "it": ""
-          },
-          "en": {},
-          "it": {},
-          "prices": {
-            "12cl": 7,
-            "75cl": 29
           }
         }
       ]
@@ -314,9 +296,9 @@
             "it": "Succhi di frutta"
           },
           "description": {
-            "fr": "Orange, Pomme, Ananas, Tomate, Abricot, A.C.E",
-            "en": "Orange, Apple, Pineapple, Tomato, Apricot, A.C.E vitamin",
-            "it": "Arancia, Mela, Ananas, Pomodoro, Albicocca"
+            "fr": "Orange, Pomme, Ananas, Tomate, Abricot, Fraise",
+            "en": "Orange, Apple, Pineapple, Tomato, Apricot, Strawberry",
+            "it": "Arancia, Mela, Ananas, Pomodoro, Albicocca, Fragola"
           },
           "price": 3.9
         },
