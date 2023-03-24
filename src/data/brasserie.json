@@ -21,7 +21,7 @@
         "en": "",
         "it": ""
       },
-      "price": 17
+      "price": 18
     },
     {
       "title": {
@@ -34,33 +34,20 @@
         "en": "",
         "it": ""
       },
-      "price": 17
+      "price": 18
     },
     {
       "title": {
-        "fr": "Salade de tomate, mozzarella di bufala, jambon fumé, pesto maison",
-        "en": "Tomato, mozzarella di bufala, country ham, pesto",
-        "it": "Pomodoro, mozzarella di Bufala, prosciutto, insalata, pesto"
+        "fr": "Salade de tomates anciennes et burrata des Pouilles, jambon fumé, pesto maison",
+        "en": "Tomatoes salad and Apulian buratta, country ham, pesto",
+        "it": "Insalata pomodori e burrata di Puglia, prosciutto affumicato, pesto"
       },
       "description": {
         "fr": "",
         "en": "",
         "it": ""
       },
-      "price": 17
-    },
-    {
-      "title": {
-        "fr": "Salade de tomates anciennes et burrata des Pouilles",
-        "en": "Tomatoes salad and Apulian buratta",
-        "it": "Insalata pomodori e burrata di Puglia"
-      },
-      "description": {
-        "fr": "",
-        "en": "",
-        "it": ""
-      },
-      "price": 17
+      "price": 19.5
     },
     {
       "title": {
@@ -73,7 +60,20 @@
         "en": "",
         "it": ""
       },
-      "price": 18.5
+      "price": 19.5
+    },
+    {
+      "title": {
+        "fr": "Steack à cheval, pommes de terre sautées maison et salade",
+        "en": "Steak à cheval with homemade fried potatoes and salad",
+        "it": "La bistecca tritata alla Bismarck"
+      },
+      "description": {
+        "fr": "",
+        "en": "",
+        "it": ""
+      },
+      "price": 19
     },
     {
       "title": {
@@ -86,7 +86,7 @@
         "en": "",
         "it": ""
       },
-      "price": 19.5
+      "price": 21
     },
     {
       "title": {
@@ -99,7 +99,7 @@
         "en": "",
         "it": ""
       },
-      "price": 19.5
+      "price": 21
     },
     {
       "title": {
@@ -112,7 +112,7 @@
         "en": "",
         "it": ""
       },
-      "price": 12
+      "price": 12.5
     },
     {
       "title": {
@@ -125,7 +125,7 @@
         "en": "",
         "it": ""
       },
-      "price": 14
+      "price": 14.5
     }
   ]
 }

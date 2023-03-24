@@ -5,9 +5,9 @@
     "it": "Gelati Artigianali"
   },
   "description": {
-    "fr": "Vanille, Chocolat, Café, Tiramisu, Caramel beurre salé, Yaourt nature, Pistache, Menthe-chocolat, Fraise, Citron vert, Noix de coco, Fruit de la passion",
-    "en": "Vanilla, Chocolate, Coffee Tiramisu, Salted butter caramel, Fresh yoghurt, Pistachio, Mint-chocolate, Strawberry, Lime, Coconut, Passion fruit",
-    "it": "Vaniglia, Cioccolato, Caffè, Tiramisu, Caramello al burro salato, Yogurt, Pistache, Menta-Cioccolato, Fragola, Limone verde, Noce di cocco, frutto della passione"
+    "fr": "Vanille, Chocolat, Caramel beurre salé, Yaourt marbré framboise, Pistache, Noisette, Fraise, Citron vert, Noix de coco, Fruit de la passion, Verveine, Piña Colada",
+    "en": "Vanilla, Chocolate, Salted butter caramel, Raspberry marble yoghourt ice cream, Pistachio, hazelnut, Strawberry, Lime, Coconut, Passion fruit, Verbena, Piña Colada",
+    "it": "Vaniglia, cioccolato, caramello al burro salato, yogurt marmorizzato al lampone, pistacchio, sorbetto alla nocciola: fragola, limone, cocco, frutto della passione, piña colada, verbena"
   },
 
   "products": [
@@ -20,7 +20,7 @@
       "description": {
         "fr": ""
       },
-      "price": 5
+      "price": 5.6
     },
     {
       "title": {
@@ -31,7 +31,7 @@
       "description": {
         "fr": ""
       },
-      "price": 6.5
+      "price": 7
     }
   ]
 }

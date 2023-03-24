@@ -55,9 +55,9 @@
             "it": ""
           },
           "prices": {
-            "18cl": 4.5,
-            "50cl": 12,
-            "75cl": 15
+            "18cl": 4.9,
+            "50cl": 13,
+            "75cl": 15.5
           }
         },
         {
@@ -74,9 +74,9 @@
           "en": {},
           "it": {},
           "prices": {
-            "18cl": 4.5,
-            "50cl": 12,
-            "75cl": 15
+            "18cl": 4.9,
+            "50cl": 13,
+            "75cl": 15.5
           }
         },
         {
@@ -91,8 +91,8 @@
             "it": ""
           },
           "prices": {
-            "18cl": 4.9,
-            "50cl": 13,
+            "18cl": 5.5,
+            "50cl": 14,
             "75cl": 16
           }
         }
@@ -102,20 +102,20 @@
     {
       "id": "vinRose",
       "title": {
-        "fr": "Vin Rosé de Provence",
-        "en": "Rosé Wine Côtes de Provence",
-        "it": "Vini Rosé Côtes de Provence"
+        "fr": "Vin Rosé",
+        "en": "Rosé Wine",
+        "it": "Vini Rosé"
       },
       "types": ["12cl", "50cl", "75cl"],
       "products": [
         {
           "title": {
-            "fr": "Côtes de Provence",
+            "fr": "Domaine Les 3 Colombes",
             "en": "",
             "it": ""
           },
           "description": {
-            "fr": "AOP",
+            "fr": "IGP du Gard",
             "en": "",
             "it": ""
           },
@@ -211,20 +211,20 @@
         },
         {
           "title": {
-            "fr": "Sauvignon",
+            "fr": "Petit Chablis Grand Calcaire",
             "en": "",
             "it": ""
           },
           "description": {
-            "fr": "IGP - Côte de Gascogne",
+            "fr": "AOP",
             "en": "",
             "it": ""
           },
           "en": {},
           "it": {},
           "prices": {
-            "12cl": 6.5,
-            "75cl": 27.5
+            "12cl": 8,
+            "75cl": 34
           }
         }
       ]
@@ -260,12 +260,12 @@
         },
         {
           "title": {
-            "fr": "Côtes de Provence St Victoire",
+            "fr": "Domaine Vallon des Glauges | La cuvée IRIS",
             "en": "",
             "it": ""
           },
           "description": {
-            "fr": "La cuvée Irrésistible du domaine de La Croix III Cru classé - AOP",
+            "fr": "IGP Alpilles",
             "en": "",
             "it": ""
           },
@@ -361,7 +361,7 @@
             "en": "Coca-cola 33cl, Coca-cola zéro 33cl, Orangina 25cl, Sprite 25cl, Schweppes Tonic 25cl, Peach Ice-Tea 25cl, Diabolo 25cl, Perrier 33cl",
             "it": "Coca-cola 33cl, Coca-cola zéro 33cl, Orangina 25cl, Limonata 25cl, Schweppes Tonic 25cl, Ice-Tea pesca 25cl, Diabolo 25cl, Perrier 33cl "
           },
-          "price": 4.2
+          "price": 4.5
         },
         {
           "title": {
@@ -374,7 +374,7 @@
             "en": "",
             "it": ""
           },
-          "price": 4.5
+          "price": 4.9
         },
         {
           "title": {
@@ -387,7 +387,7 @@
             "en": "(Mint, Lemon, Exotic fruits, Strawberry-Rhubarb)",
             "it": "(Menta, Limone, Frutta esotica, Fragola-Rhubarbe)"
           },
-          "price": 4.5
+          "price": 4.9
         }
       ]
     }

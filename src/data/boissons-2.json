@@ -151,7 +151,7 @@
         },
         {
           "title": {
-            "fr": "Paix dieux",
+            "fr": "Paix dieu",
             "en": "",
             "it": ""
           },
@@ -184,7 +184,46 @@
             "en": "",
             "it": ""
           },
-          "price": 7.5
+          "price": 8
+        },
+        {
+          "title": {
+            "fr": "Spritz limoncello ",
+            "en": "",
+            "it": ""
+          },
+          "description": {
+            "fr": "14cl",
+            "en": "",
+            "it": ""
+          },
+          "price": 8
+        },
+        {
+          "title": {
+            "fr": "Spritz campari",
+            "en": "",
+            "it": ""
+          },
+          "description": {
+            "fr": "14cl",
+            "en": "",
+            "it": ""
+          },
+          "price": 8
+        },
+        {
+          "title": {
+            "fr": "Spritz Saint Germain",
+            "en": "",
+            "it": ""
+          },
+          "description": {
+            "fr": "14cl",
+            "en": "",
+            "it": ""
+          },
+          "price": 9.5
         },
         {
           "title": {
@@ -210,7 +249,7 @@
             "en": "",
             "it": ""
           },
-          "price": 8
+          "price": 9
         },
         {
           "title": {
@@ -295,7 +334,7 @@
             "it": ""
           },
           "description": {
-            "fr": "",
+            "fr": "4cl",
             "en": "",
             "it": ""
           },
@@ -339,45 +378,6 @@
             "it": ""
           },
           "price": 11
-        },
-        {
-          "title": {
-            "fr": "Spritz lemon",
-            "en": "",
-            "it": ""
-          },
-          "description": {
-            "fr": "",
-            "en": "",
-            "it": ""
-          },
-          "price": 7.5
-        },
-        {
-          "title": {
-            "fr": "Spritz campari",
-            "en": "",
-            "it": ""
-          },
-          "description": {
-            "fr": "",
-            "en": "",
-            "it": ""
-          },
-          "price": 7.5
-        },
-        {
-          "title": {
-            "fr": "Spritz Saint Germain",
-            "en": "",
-            "it": ""
-          },
-          "description": {
-            "fr": "",
-            "en": "",
-            "it": ""
-          },
-          "price": 9.5
         }
       ]
     },
@@ -401,7 +401,7 @@
             "en": "",
             "it": ""
           },
-          "price": 1.8
+          "price": 2
         },
         {
           "title": {
@@ -414,7 +414,7 @@
             "en": "",
             "it": ""
           },
-          "price": 1.9
+          "price": 2.1
         },
         {
           "title": {
@@ -453,7 +453,7 @@
             "en": "",
             "it": ""
           },
-          "price": 2
+          "price": 2.1
         },
         {
           "title": {
@@ -466,7 +466,7 @@
             "en": "",
             "it": ""
           },
-          "price": 4.2
+          "price": 4.5
         },
         {
           "title": {
@@ -479,7 +479,7 @@
             "en": "",
             "it": ""
           },
-          "price": 4.2
+          "price": 4.5
         },
         {
           "title": {

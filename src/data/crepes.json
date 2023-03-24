@@ -30,9 +30,9 @@
         "it": "Marmellata"
       },
       "description": {
-        "fr": "(rhubarbe, framboise, fraise, orange amère, abricot)",
+        "fr": "(rhubarbe, framboise, fraise, orange amère, abricot)",
         "en": "(rhubarb, raspberry, strawberry, bitter orange, apricot)",
-        "it": "(rabarbaro, lampone, fragola, arancia, albicocca)"
+        "it": "(rabarbaro, lampone, fragola, arancia amara, albicocca)"
       },
       "price": 5.5
     },
@@ -52,8 +52,8 @@
     {
       "title": {
         "fr": "Nutella",
-        "en": "Nutella",
-        "it": "Nutella"
+        "en": "",
+        "it": ""
       },
       "description": {
         "fr": "",
@@ -103,7 +103,7 @@
     },
     {
       "title": {
-        "fr": "Jus de citron, sucre",
+        "fr": "Citron pressé, sucre",
         "en": "Lemon Juice, sugar",
         "it": "Succo di limone, zucchero"
       },
@@ -155,9 +155,9 @@
     },
     {
       "title": {
-        "fr": "Glace menthe-chocolat, chocolat noir maison, noix de coco râpée et crème Chantilly",
-        "en": "Mint and chocolate ice cream, hot chocolate, grated coconut and whipped cream",
-        "it": "Gelato menta-cioccolato, cioccolato nero, noce di cocco grattugiata, panna montata"
+        "fr": "Sucre flambée au Grand Marnier",
+        "en": "Sugar flambéed with Grand Marnier",
+        "it": "Zucchero flambé al Grand Marnier"
       },
       "description": {
         "fr": "",
@@ -181,6 +181,19 @@
     },
     {
       "title": {
+        "fr": "Fraises, sorbet Verveine, Chantilly",
+        "en": "Strawberries, verbena sorbet, whipped cream",
+        "it": "Fragole, sorbetto alla verbena, panna montata"
+      },
+      "description": {
+        "fr": "",
+        "en": "",
+        "it": ""
+      },
+      "price": 10.5
+    },
+    {
+      "title": {
         "fr": "Poire caramélisée, émietté de spéculoos, glace vanille",
         "en": "Caramelised pears, biscuit crumbs, vanilla ice cream",
         "it": "Pere caramellizzate, schegge di Speculos, gelato alla vaniglia"
@@ -197,6 +210,19 @@
         "fr": "Pomme Tatin flambée au Calvados, glace vanille",
         "en": "Apple flamed with Calvados, vanilla ice cream",
         "it": "Tatin (mela) flambée al Calvados, gelato alla vaniglia"
+      },
+      "description": {
+        "fr": "",
+        "en": "",
+        "it": ""
+      },
+      "price": 12
+    },
+    {
+      "title": {
+        "fr": "Ananas rôti flambé au rhum, glace piña Colada",
+        "en": "Roasted pineapple flambéed with rum, piña Colada ice cream",
+        "it": "Ananas Arrosto Flambé Al Rum, Gelato Piña Colada"
       },
       "description": {
         "fr": "",

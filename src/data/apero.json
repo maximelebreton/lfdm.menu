@@ -21,7 +21,7 @@
         "en": "",
         "it": ""
       },
-      "price": 12.5
+      "price": 13.5
     },
     {
       "title": {
@@ -34,20 +34,20 @@
         "en": "",
         "it": ""
       },
-      "price": 12.5
+      "price": 13.5
     },
     {
       "title": {
-        "fr": "Fromage de chèvre, jambon blanc, œuf, confit d’oignons au cidre",
-        "en": "Goat cheese, ham, cider onion confit, egg",
-        "it": "Prosciutto, uovo, formaggio di capra, cipolla confit al sidro"
+        "fr": "Fromage de chèvre, légumes de saison, miel",
+        "en": "Goat cheese, vegetables, Honey",
+        "it": "Formaggio di capra, verdure di stagione, Miele"
       },
       "description": {
         "fr": "",
         "en": "",
         "it": ""
       },
-      "price": 12.5
+      "price": 13.5
     },
     {
       "title": {
@@ -60,7 +60,7 @@
         "en": "",
         "it": ""
       },
-      "price": 14
+      "price": 15
     }
   ]
 }
