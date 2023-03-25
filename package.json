@@ -2,10 +2,10 @@
   "name": "lfdmmenu",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "source": "index.html",
   "scripts": {
     "start": "parcel index.html --open",
-    "build": "parcel build index.html --out-dir public"
+    "build": "parcel build index.html --dist-dir public"
   },
   "dependencies": {
     "alpinejs": "2.3.5",
@@ -14,7 +14,10 @@
   },
   "devDependencies": {
     "@babel/core": "7.2.0",
-    "parcel-bundler": "^1.6.1",
+    "@parcel/packager-raw-url": "2.8.3",
+    "@parcel/transformer-sass": "2.8.3",
+    "@parcel/transformer-webmanifest": "2.8.3",
+    "parcel": "^2.8.3",
     "sass": "^1.60.0"
   },
   "keywords": []
