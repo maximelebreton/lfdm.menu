@@ -20,5 +20,8 @@
     "parcel": "^2.8.3",
     "sass": "^1.60.0"
   },
-  "keywords": []
+  "keywords": [],
+  "engines": {
+    "node": ">=14.18.1"
+  }
 }
