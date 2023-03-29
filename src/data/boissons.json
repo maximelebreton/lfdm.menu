@@ -127,12 +127,12 @@
         },
         {
           "title": {
-            "fr": "Les Trois Frères du Domaine des Aspras",
+            "fr": "Bailli de Provence",
             "en": "",
             "it": ""
           },
           "description": {
-            "fr": "BIO - AOP",
+            "fr": "BIO - AOP Côtes de Provence",
             "en": "",
             "it": ""
           },
@@ -145,12 +145,12 @@
         },
         {
           "title": {
-            "fr": "La Cuvée Irrésistible du Domaine de la Croix",
+            "fr": "Irrésistible",
             "en": "",
             "it": ""
           },
           "description": {
-            "fr": "Cru Classé - AOP",
+            "fr": "Domaine de la Croix Cru Classé - AOP côtes de Provence",
             "en": "",
             "it": ""
           },
@@ -174,12 +174,12 @@
       "products": [
         {
           "title": {
-            "fr": "Côtes de Provence",
+            "fr": "Cuvée Mademoiselle",
             "en": "",
             "it": ""
           },
           "description": {
-            "fr": "AOP - Cuvée Mademoiselle",
+            "fr": "AOP - Côtes de Provence",
             "en": "",
             "it": ""
           },
@@ -193,30 +193,12 @@
         },
         {
           "title": {
-            "fr": "Chardonnay BIO",
+            "fr": "Grand Calcaire de Chablis",
             "en": "",
             "it": ""
           },
           "description": {
-            "fr": "IGP Pays d’Oc - Secret de Lunes",
-            "en": "",
-            "it": ""
-          },
-          "en": {},
-          "it": {},
-          "prices": {
-            "12cl": 6.5,
-            "75cl": 27.5
-          }
-        },
-        {
-          "title": {
-            "fr": "Petit Chablis Grand Calcaire",
-            "en": "",
-            "it": ""
-          },
-          "description": {
-            "fr": "AOP",
+            "fr": "AOP Petit Chablis",
             "en": "",
             "it": ""
           },
@@ -225,6 +207,24 @@
           "prices": {
             "12cl": 8,
             "75cl": 34
+          }
+        },
+        {
+          "title": {
+            "fr": "Secret de Lunes Chardonnay BIO",
+            "en": "",
+            "it": ""
+          },
+          "description": {
+            "fr": "IGP Pays d’Oc",
+            "en": "",
+            "it": ""
+          },
+          "en": {},
+          "it": {},
+          "prices": {
+            "12cl": 6.5,
+            "75cl": 27.5
           }
         }
       ]
@@ -241,12 +241,12 @@
       "products": [
         {
           "title": {
-            "fr": "Côtes du Rhône",
+            "fr": "Le pas de la beaume",
             "en": "",
             "it": ""
           },
           "description": {
-            "fr": "Côtes du Rhône Camille Cayran III Le pas de la beaume",
+            "fr": "AOP Côtes du Rhône",
             "en": "",
             "it": ""
           },
@@ -260,12 +260,12 @@
         },
         {
           "title": {
-            "fr": "Domaine Vallon des Glauges | La cuvée IRIS",
+            "fr": "La cuvée IRIS",
             "en": "",
             "it": ""
           },
           "description": {
-            "fr": "IGP Alpilles",
+            "fr": "Domaine Vallon des Glauges - IGP Alpilles",
             "en": "",
             "it": ""
           },
