@@ -45,7 +45,7 @@
             "en": "",
             "it": ""
           },
-          "price": 4.2
+          "price": 4.4
         },
         {
           "title": {
@@ -97,19 +97,7 @@
           },
           "price": 5.5
         },
-        {
-          "title": {
-            "fr": "Chimays",
-            "en": "",
-            "it": ""
-          },
-          "description": {
-            "fr": "",
-            "en": "",
-            "it": ""
-          },
-          "price": 6
-        },
+
         {
           "title": {
             "fr": "Chouffe",
@@ -125,42 +113,16 @@
         },
         {
           "title": {
-            "fr": "Tripel karmeliet",
+            "fr": "B06 : blanche blonde et IPA",
             "en": "",
             "it": ""
           },
           "description": {
-            "fr": "Bière bouteille",
-            "en": "Bottle",
-            "it": "Bottiglia"
-          },
-          "price": 6
-        },
-        {
-          "title": {
-            "fr": "Delirium Tremens",
+            "fr": "33cl",
             "en": "",
             "it": ""
           },
-          "description": {
-            "fr": "",
-            "en": "",
-            "it": ""
-          },
-          "price": 7
-        },
-        {
-          "title": {
-            "fr": "Paix dieu",
-            "en": "",
-            "it": ""
-          },
-          "description": {
-            "fr": "Bière bouteille",
-            "en": "Bottle",
-            "it": "Bottiglia"
-          },
-          "price": 7
+          "price": 8.5
         }
       ]
     },
@@ -303,19 +265,6 @@
         },
         {
           "title": {
-            "fr": "Cognac, Armagnac",
-            "en": "",
-            "it": ""
-          },
-          "description": {
-            "fr": "4cl",
-            "en": "",
-            "it": ""
-          },
-          "price": 7
-        },
-        {
-          "title": {
             "fr": "Limoncello",
             "en": "",
             "it": ""
@@ -355,7 +304,46 @@
         },
         {
           "title": {
-            "fr": "Rhum Diplomatico",
+            "fr": "Calvados delaitre",
+            "en": "",
+            "it": ""
+          },
+          "description": {
+            "fr": "",
+            "en": "",
+            "it": ""
+          },
+          "price": 7
+        },
+        {
+          "title": {
+            "fr": "Armagnac delaitre",
+            "en": "",
+            "it": ""
+          },
+          "description": {
+            "fr": "",
+            "en": "",
+            "it": ""
+          },
+          "price": 7
+        },
+        {
+          "title": {
+            "fr": "Cognac (vsop) delaitre",
+            "en": "",
+            "it": ""
+          },
+          "description": {
+            "fr": "",
+            "en": "",
+            "it": ""
+          },
+          "price": 7
+        },
+        {
+          "title": {
+            "fr": "Rhum maison Ferroni",
             "en": "",
             "it": ""
           },
@@ -365,19 +353,6 @@
             "it": ""
           },
           "price": 9
-        },
-        {
-          "title": {
-            "fr": "Rhum mauricien Emperor",
-            "en": "",
-            "it": ""
-          },
-          "description": {
-            "fr": "4cl",
-            "en": "",
-            "it": ""
-          },
-          "price": 11
         }
       ]
     },

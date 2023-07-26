@@ -352,6 +352,24 @@
         },
         {
           "title": {
+            "fr": "Café crème frappé",
+            "en": "Café crème frappé",
+            "it": "Caffè latte ghiacciato"
+          },
+          "description": {},
+          "price": 5.2
+        },
+        {
+          "title": {
+            "fr": "Cappuccino frappé",
+            "en": "Cappuccino frappé",
+            "it": "Cappuccino Ghiacciato"
+          },
+          "description": {},
+          "price": 5.3
+        },
+        {
+          "title": {
             "fr": "Sodas",
             "en": "Soft drink",
             "it": "Bevande (bottiglia)"
@@ -370,7 +388,7 @@
             "it": "Acque Minerali"
           },
           "description": {
-            "fr": "San Pellegrino, Vittel ",
+            "fr": "San Pellegrino, Evian (50cl)",
             "en": "",
             "it": ""
           },
