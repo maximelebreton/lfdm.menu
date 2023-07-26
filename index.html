@@ -206,6 +206,24 @@
       </div>
       </div>
 
+      <div class="carousel-cell">
+         <div class="row">
+      <div class="category-title" x-text="t(menu.petitdej.title)"></div>
+      <table class="table">
+      <template x-for="(product, index) in menu.petitdej.products" :key="index">
+      <tr>
+      <td><span class="product-title product-title--small" x-text="t(product.title)"></span></td>
+      <td><span class="product-price" x-text="money(product.price)"></span></td>
+      </tr>
+      </template>
+      </table>
+      
+      <div class="category-description" x-text="t(menu.petitdej.description)"></div>
+      <br>
+      <div class="product-description" x-html="t(menu.common.extra)"></div>
+      </div>
+      </div>
+
       <!-- <div class="carousel-cell">
             <div id="google-reviews"></div>
 
