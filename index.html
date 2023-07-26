@@ -212,7 +212,9 @@
       <table class="table">
       <template x-for="(product, index) in menu.petitdej.products" :key="index">
       <tr>
-      <td><span class="product-title product-title--small" x-text="t(product.title)"></span></td>
+      <td>
+         <div><span class="product-title product-title--small" x-text="t(product.title)"></span>
+         <span x-text="[t(product.description) ? '| ' : '']"></span><span class="product-description" x-text="t(product.description)"></span></div></td>
       <td><span class="product-price" x-text="money(product.price)"></span></td>
       </tr>
       </template>
