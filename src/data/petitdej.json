@@ -1,0 +1,52 @@
+{
+  "title": {
+    "fr": "Petit déjeuner",
+    "en": "Breakfast",
+    "it": "Colazione"
+  },
+  "description": {
+    "fr": ""
+  },
+
+  "products": [
+    {
+      "title": {
+        "fr": "Nordique (sans gluten)",
+        "en": "",
+        "it": ""
+      },
+      "description": {
+        "fr": "Boisson chaude - Orange pressée - Blinis - Saumon - Avocat - Oeuf bio",
+        "en": "Hot drink - Freshly squeezed orange - Blinis - Salmon - Avocado - Organic egg",
+        "it": "Bevanda calda - Arancia appena spremuta - Blinis - Salmone - Avocado - Uovo bio"
+      },
+      "price": 18
+    },
+    {
+      "title": {
+        "fr": "English",
+        "en": "",
+        "it": ""
+      },
+      "description": {
+        "fr": "Boisson chaude - Orange pressée - Oeufs au plat (bio)- Bacon - Beans - Toast",
+        "en": "Hot drink - Freshly squeezed orange - Fried eggs (organic) - Bacon - Beans - Toast",
+        "it": "Bevanda calda - Arancia appena spremuta - Uova al tegamino (bio) - Pancetta - Fagioli - Toast"
+      },
+      "price": 14
+    },
+    {
+      "title": {
+        "fr": "French",
+        "en": "",
+        "it": ""
+      },
+      "description": {
+        "fr": "Boisson chaude - Orange pressée - Croissant - Pain - beurre - confiture",
+        "en": "Hot drink -  Freshly squeezed orange - Croissant - Bread - butter - jam",
+        "it": "Bevanda calda - Arancia appena spremuta - Croissant - Pane - Burro - Marmellata"
+      },
+      "price": 10
+    }
+  ]
+}

@@ -6,6 +6,7 @@ import crepes from "./data/crepes.json";
 import apero from "./data/apero.json";
 import brasserie from "./data/brasserie.json";
 import desserts from "./data/desserts.json";
+import petitdej from "./data/petitdej.json";
 import galettes from "./data/galettes.json";
 import common from "./data/common.json";
 import Flickity from "flickity";
@@ -37,7 +38,8 @@ window.data = () => ({
     brasserie,
     crepes,
     common,
-    galettes
+    galettes,
+    petitdej
   },
 
   getLang() {

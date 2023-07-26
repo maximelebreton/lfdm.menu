@@ -52,6 +52,13 @@
         "en": "Desserts",
         "it": "Dolci"
       }
+    },
+    {
+      "title": {
+        "fr": "Petit déjeuner",
+        "en": "Breakfast",
+        "it": "Colazione"
+      }
     }
   ],
   "footer": {
